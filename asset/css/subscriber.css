@@ -1,0 +1,242 @@
+	/**
+	 * @copyright (C) 2016 - 2024 Holger Brandt IT Solutions
+	 * @license GNU/GPL, see license.txt
+	 * WP Mailster is free software; you can redistribute it and/or
+	 * modify it under the terms of the GNU General Public License 2
+	 * as published by the Free Software Foundation.
+	 * 
+	 * WP Mailster is distributed in the hope that it will be useful,
+	 * but WITHOUT ANY WARRANTY; without even the implied warranty of
+	 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	 * GNU General Public License for more details.
+	 * 
+	 * You should have received a copy of the GNU General Public License
+	 * along with WP Mailster; if not, write to the Free Software
+	 * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+	 * or see http://www.gnu.org/licenses/.
+	 */
+
+
+.subscribeUnsubscribeContainer input{
+    width:auto;
+}
+
+.subscribeUnsubscribeContainer .error,
+.subscribeUnsubscribeContainer .errorMessage,
+.subscribeUnsubscribeContainer .subscribe-result-error,
+.subscribeUnsubscribeContainer .subscribe-result-errorMsgs,
+.subscribeUnsubscribeContainer .unsubscribe-result-error,
+.subscribeUnsubscribeContainer .unsubscribe-result-errorMsgs{
+    color:red;
+}
+
+.ajax_call_in_progress{
+    background-image:url('../images/16-loader.gif');
+    background-repeat:no-repeat;
+    vertical-align:middle;
+    display: inline-block;
+    width:16px;
+    height:16px;
+    margin:5px;
+}
+
+/* For reducing the size of the reCAPTCHA v2 element */
+.g-recaptcha-small{
+    transform:scale(0.77);
+    -webkit-transform:scale(0.77);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+}
+
+.readyOnlyInput,
+.mailster_subscriber_readyOnlyInput,
+.mailster_unsubscriber_readyOnlyInput{
+    cursor:not-allowed;
+}
+
+.mailster_subscriber_black_container table{
+    background-color:black;
+    color:white;
+    width:250px;
+}
+.mailster_subscriber_black_header{
+    background-color:grey;
+    color:white;
+    padding:5px;
+}
+.mailster_subscriber_black_listLabel{
+    padding:3px;
+    border-bottom:1px solid white;
+}
+.mailster_subscriber_black_listName{
+    border-bottom:1px solid white;
+}
+.mailster_subscriber_black_nameLabel{
+    padding:3px;
+}
+.mailster_subscriber_black_subscriberName{
+    padding:5px;
+}
+.mailster_subscriber_black_subscriberName input{
+    width:150px;
+}
+.mailster_subscriber_black_emailLabel{
+    padding:3px;
+}
+.mailster_subscriber_black_captchaQuestion{
+    padding:3px;
+}
+.mailster_subscriber_black_subscriberEmail{
+    padding:5px;
+}
+.mailster_subscriber_black_subscriberEmail input{
+    width:150px;
+}
+.mailster_subscriber_black_submitButton input{
+    width:150px;
+    padding:5px;
+    background-color:grey;
+    color:white;
+    border:1px solid grey;
+}
+
+
+.mailster_subscriber_red_container table{
+    background-color:#AA0000;
+    color:white;
+    width:250px;
+}
+.mailster_subscriber_red_header{
+    background-color:#CC0000;
+    color:white;
+    padding:5px;
+}
+.mailster_subscriber_red_listLabel{
+    padding:3px;
+    border-bottom:1px solid white;
+}
+.mailster_subscriber_red_listName{
+    border-bottom:1px solid white;
+}
+.mailster_subscriber_red_nameLabel{
+    padding:3px;
+}
+.mailster_subscriber_red_subscriberName{
+    padding:5px;
+}
+.mailster_subscriber_red_subscriberName input{
+    width:150px;
+}
+.mailster_subscriber_red_emailLabel{
+    padding:3px;
+}
+.mailster_subscriber_red_captchaQuestion{
+    padding:3px;
+}
+.mailster_subscriber_red_subscriberEmail{
+    padding:5px;
+}
+.mailster_subscriber_red_subscriberEmail input{
+    width:150px;
+}
+.mailster_subscriber_red_submitButton input{
+    width:150px;
+    padding:5px;
+    background-color:#CC0000;
+    color:white;
+    border:1px solid #CC0000;
+}
+
+
+.mailster_subscriber_blue_container table{
+    background-color:#0000CC;
+    color:white;
+    width:250px;
+}
+.mailster_subscriber_blue_header{
+    background-color:#0000AA;
+    color:white;
+    padding:5px;
+}
+.mailster_subscriber_blue_listLabel{
+    padding:3px;
+    border-bottom:1px solid white;
+}
+.mailster_subscriber_blue_listName{
+    border-bottom:1px solid white;
+}
+.mailster_subscriber_blue_nameLabel{
+    padding:3px;
+}
+.mailster_subscriber_blue_subscriberName{
+    padding:5px;
+}
+.mailster_subscriber_blue_subscriberName input{
+    width:150px;
+}
+.mailster_subscriber_blue_emailLabel{
+    padding:3px;
+}
+.mailster_subscriber_blue_captchaQuestion{
+    padding:3px;
+}
+.mailster_subscriber_blue_subscriberEmail{
+    padding:5px;
+}
+.mailster_subscriber_blue_subscriberEmail input{
+    width:150px;
+}
+.mailster_subscriber_blue_submitButton input{
+    width:150px;
+    padding:5px;
+    background-color:#0000AA;
+    color:white;
+    border:1px solid #0000AA;
+}
+
+
+.mailster_subscriber_white_container table{
+    background-color:white;
+    color:black;
+    width:250px;
+}
+.mailster_subscriber_white_header{
+    background-color:grey;
+    color:white;
+    padding:5px;
+}
+.mailster_subscriber_white_listLabel{
+    padding:3px;
+    border-bottom:1px solid white;
+}
+.mailster_subscriber_white_listName{
+    border-bottom:1px solid white;
+}
+.mailster_subscriber_white_nameLabel{
+    padding:3px;
+}
+.mailster_subscriber_white_subscriberName{
+    padding:5px;
+}
+.mailster_subscriber_white_subscriberName input{
+    width:150px;
+}
+.mailster_subscriber_white_emailLabel{
+    padding:3px;
+}
+.mailster_subscriber_white_captchaQuestion{
+    padding:3px;
+}
+.mailster_subscriber_white_subscriberEmail{
+    padding:5px;
+}
+.mailster_subscriber_white_subscriberEmail input{
+    width:150px;
+}
+.mailster_subscriber_white_submitButton input{
+    width:150px;
+    padding:5px;
+    background-color:grey;
+    color:white;
+    border:1px solid grey;
+}

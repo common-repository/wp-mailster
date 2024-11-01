@@ -1,0 +1,40 @@
+@media print {
+	.wrap h2{
+		display:none;
+	}
+	
+	.col-sm-6 #mst_table_length, .col-sm-6 #mst_table_filter{
+		display:none;
+	}
+	
+	.col-sm-5 #mst_table_info, .col-sm-7 #mst_table_paginate{
+		display:none;
+	}
+	
+	#adminmenuwrap{
+		display:none;
+	}
+	
+	#wpbody{
+		text-align:center;
+		margin:auto;
+		float:left;
+		width:10%;
+	}
+	
+	@page {
+		margin-left: 0cm;
+	}
+	
+	#deleteclick, #activateclick, #deactivateclick, #printclick, #wpfooter{
+		display:none;
+	}
+	
+	#mst_table{
+		width:50%;
+	}
+	a:after { 
+		content:"" !important; 
+	}
+
+}

@@ -1,0 +1,4026 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Mailster Free\n"
+"POT-Creation-Date: 2022-01-10 15:03+0100\n"
+"PO-Revision-Date: 2021-11-06 15:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-mailster.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/mst_config.php:856
+#, php-format
+msgid "Update to version %s: error in step %d"
+msgstr ""
+
+#: admin/mst_config.php:861
+#, php-format
+msgid "Update to version %s: step %d OK"
+msgstr ""
+
+#: admin/mst_config.php:872
+#, php-format
+msgid ""
+"Database update to version %s FAILED, please copy errors or take a "
+"screenshot and contact support."
+msgstr ""
+
+#: admin/mst_config.php:876
+#, php-format
+msgid "Database update to version %s successful!"
+msgstr ""
+
+#: classes/mst_archived.php:15
+msgid "Archived Email"
+msgstr ""
+
+#: classes/mst_archived.php:16 wp-mailster.php:385 wp-mailster.php:654
+msgid "Archived Emails"
+msgstr ""
+
+#: classes/mst_archived.php:135
+msgid "No Archived emails."
+msgstr ""
+
+#: classes/mst_archived.php:182 classes/mst_queued.php:171
+#: shortcodes/mail.php:20 shortcodes/mails.php:141 shortcodes/thread.php:47
+#: shortcodes/threads.php:129
+msgid "(No Subject)"
+msgstr ""
+
+#: classes/mst_archived.php:193 classes/mst_archived.php:316
+#: view/mail/mst_resend.php:63
+msgid "Resend"
+msgstr ""
+
+#: classes/mst_archived.php:196
+msgid "Email content not archived"
+msgstr ""
+
+#: classes/mst_archived.php:203 classes/mst_archived.php:315
+#: classes/mst_groups.php:161 classes/mst_groups.php:217
+#: classes/mst_mailing_lists.php:307 classes/mst_mailing_lists.php:366
+#: classes/mst_servers.php:217 classes/mst_servers.php:260
+#: classes/mst_users.php:214 classes/mst_users.php:293 view/list/tab9.php:42
+msgid "Delete"
+msgstr ""
+
+#: classes/mst_archived.php:211 classes/mst_archived.php:224
+#: view/mail/mst_emaildetails.php:115
+msgid "Approve"
+msgstr ""
+
+#: classes/mst_archived.php:217 view/mail/mst_emaildetails.php:116
+msgid "Reject"
+msgstr ""
+
+#: classes/mst_archived.php:279
+msgid "From Name"
+msgstr ""
+
+#: classes/mst_archived.php:280
+msgid "From Email"
+msgstr ""
+
+#: classes/mst_archived.php:281 classes/mst_queued.php:184
+#: shortcodes/mails.php:124 shortcodes/threads.php:114
+#: view/list/mst_digest_management.php:190 view/mail/mst_emaildetails.php:129
+msgid "Subject"
+msgstr ""
+
+#: classes/mst_archived.php:282 mailster/app/Events.php:46
+#: shortcodes/mails.php:128 shortcodes/threads.php:116
+#: view/diagnosis/mst_diagnosis.php:82 view/list/mst_digest_management.php:191
+#: view/mail/mst_emaildetails.php:134 view/mail/mst_emaildetails.php:277
+msgid "Date"
+msgstr ""
+
+#: classes/mst_archived.php:283
+msgid "Sent date"
+msgstr ""
+
+#: classes/mst_archived.php:284 conncheck.php:55 conncheck.php:151
+#: view/diagnosis/mst_inbox_test.php:19
+msgid "Errors"
+msgstr ""
+
+#: classes/mst_archived.php:285
+msgid "Sent"
+msgstr ""
+
+#: classes/mst_archived.php:286
+msgid "In Mailing List"
+msgstr ""
+
+#: classes/mst_archived.php:287 classes/mst_mailing_lists.php:336
+#: view/diagnosis/mst_diagnosis.php:246 view/list/mst_digest_management.php:192
+msgid "ID"
+msgstr ""
+
+#: classes/mst_archived.php:319
+msgid "Moderation: Approve"
+msgstr ""
+
+#: classes/mst_archived.php:320
+msgid "Moderation: Reject"
+msgstr ""
+
+#: classes/mst_archived.php:473
+#, php-format
+msgid "Approved mail \"%s\""
+msgstr ""
+
+#: classes/mst_archived.php:477
+#, php-format
+msgid "Error while approving mail \"%s\""
+msgstr ""
+
+#: classes/mst_archived.php:500
+#, php-format
+msgid "Rejected mail \"%s\""
+msgstr ""
+
+#: classes/mst_archived.php:504
+#, php-format
+msgid "Error while rejecting mail \"%s\""
+msgstr ""
+
+#: classes/mst_archived.php:522
+msgid "Processed Emails"
+msgstr ""
+
+#: classes/mst_archived.php:523
+msgid "Blocked/Filtered Emails"
+msgstr ""
+
+#: classes/mst_archived.php:524
+msgid "Bounced Emails"
+msgstr ""
+
+#: classes/mst_archived.php:525
+msgid "Moderation: Emails in moderation"
+msgstr ""
+
+#: classes/mst_archived.php:526
+msgid "Moderation: Rejected emails"
+msgstr ""
+
+#: classes/mst_group_members.php:15 view/users/mst_users_add.php:135
+msgid "Group Member"
+msgstr ""
+
+#: classes/mst_group_members.php:16
+msgid "Group Members"
+msgstr ""
+
+#: classes/mst_group_members.php:80
+msgid "No Group Members available."
+msgstr ""
+
+#: classes/mst_group_members.php:126 classes/mst_users.php:191
+#: view/groups/mst_groups_add.php:141 view/groups/mst_groups_add.php:158
+#: view/list/mst_digest_management.php:89
+#: view/list/mst_list_members_add.php:196
+#: view/list/mst_list_members_add.php:213 view/list/recipients-tab1.php:54
+#: view/list/recipients-tab2.php:39
+msgid "(no name)"
+msgstr ""
+
+#: classes/mst_group_members.php:145 classes/mst_group_members.php:189
+msgid "Remove"
+msgstr ""
+
+#: classes/mst_group_members.php:159 classes/mst_groups.php:189
+#: classes/mst_mailing_lists.php:332 classes/mst_queued.php:185
+#: classes/mst_servers.php:231 classes/mst_users.php:264
+#: shortcodes/mst_view_mailing_list.php:87 view/csv/import.php:814
+#: view/diagnosis/mst_diagnosis.php:242 view/list/mst_digest_management.php:124
+#: view/list/recipients-tab1.php:17 view/list/recipients-tab1.php:27
+#: view/list/recipients-tab2.php:15 view/list/recipients-tab2.php:23
+#: view/list/recipients-tab3.php:15 view/list/recipients-tab3.php:22
+#: view/users/mst_users_add.php:117 widget/subscribe-widget.php:524
+#: widget/subscribe-widget.php:748
+msgid "Name"
+msgstr ""
+
+#: classes/mst_group_members.php:160 classes/mst_queued.php:186
+#: classes/mst_users.php:265 conncheck.php:146 view/csv/import.php:814
+#: view/list/mst_digest_management.php:132 view/list/recipients-tab1.php:18
+#: view/list/recipients-tab1.php:28 view/list/recipients-tab2.php:16
+#: view/list/recipients-tab2.php:24 view/users/mst_users_add.php:118
+#: widget/subscribe-widget.php:537 widget/subscribe-widget.php:639
+#: widget/subscribe-widget.php:749 widget/subscribe-widget.php:758
+msgid "Email"
+msgstr ""
+
+#: classes/mst_group_members.php:161
+msgid "Role"
+msgstr ""
+
+#: classes/mst_groups.php:15 view/csv/export.php:177 view/list/tab5.php:52
+msgid "Group"
+msgstr ""
+
+#: classes/mst_groups.php:16 wp-mailster.php:380 wp-mailster.php:869
+msgid "Groups"
+msgstr ""
+
+#: classes/mst_groups.php:92
+msgid "No Groups available."
+msgstr ""
+
+#: classes/mst_groups.php:153 classes/mst_mailing_lists.php:284
+#: classes/mst_servers.php:209 classes/mst_users.php:206
+#: classes/mst_users.php:227
+msgid "Edit"
+msgstr ""
+
+#: classes/mst_groups.php:190 view/list/recipients-tab3.php:16
+#: view/list/recipients-tab3.php:23
+msgid "#Users in Group"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:15 shortcodes/mails.php:127
+#: shortcodes/profile.php:44 shortcodes/profile_digest.php:98
+#: view/list/mst_digest_management.php:108 view/mail/mst_emaildetails.php:210
+msgid "Mailing List"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:16 shortcodes/mst_view_mailing_list.php:82
+#: view/stats/mst_intro.php:86 wp-mailster.php:352 wp-mailster.php:427
+msgid "Mailing Lists"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:97
+msgctxt "noun"
+msgid "Copy"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:157 classes/mst_mailing_lists.php:299
+msgid "Copy"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:181
+msgid "No Lists available."
+msgstr ""
+
+#: classes/mst_mailing_lists.php:224 classes/mst_mailing_lists.php:263
+#: classes/mst_servers.php:159
+msgid "Activated - click to Deactivate"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:234 classes/mst_mailing_lists.php:273
+#: classes/mst_servers.php:169
+msgid "Deactivated - click to Activate"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:291 classes/mst_mailing_lists.php:320
+#: view/stats/mst_intro.php:151
+msgid "Manage recipients"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:333 classes/mst_servers.php:232
+#: shortcodes/profile.php:45
+msgid "Status"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:334 shortcodes/mst_view_mailing_list.php:88
+msgid "Mailing list email"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:335
+msgid "#Recipients"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:363 classes/mst_servers.php:261
+msgid "Activate"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:364 classes/mst_servers.php:262
+msgid "Deactivate"
+msgstr ""
+
+#: classes/mst_mailing_lists.php:365
+msgid "Duplicate"
+msgstr ""
+
+#: classes/mst_queued.php:34
+msgid "Queued Email"
+msgstr ""
+
+#: classes/mst_queued.php:35 wp-mailster.php:363 wp-mailster.php:524
+msgid "Queued Emails"
+msgstr ""
+
+#: classes/mst_queued.php:124
+msgid "No Queued emails."
+msgstr ""
+
+#: classes/mst_queued.php:187
+msgid "Mail ID"
+msgstr ""
+
+#: classes/mst_queued.php:215
+msgid "Delete Selected"
+msgstr ""
+
+#: classes/mst_queued.php:216
+msgid "Clear Complete Queue"
+msgstr ""
+
+#: classes/mst_servers.php:15 view/list/tab2.php:8 view/list/tab3.php:10
+msgid "Server"
+msgstr ""
+
+#: classes/mst_servers.php:16 wp-mailster.php:368 wp-mailster.php:743
+msgid "Servers"
+msgstr ""
+
+#: classes/mst_servers.php:118
+msgid "No Servers available."
+msgstr ""
+
+#: classes/mst_servers.php:176
+msgid "Inbox"
+msgstr ""
+
+#: classes/mst_servers.php:178
+msgid "SMTP"
+msgstr ""
+
+#: classes/mst_servers.php:233 view/servers/mst_servers_add.php:111
+msgid "Server Type"
+msgstr ""
+
+#: classes/mst_servers.php:234
+msgid "Server used in #lists"
+msgstr ""
+
+#: classes/mst_users.php:15
+msgid "User"
+msgstr ""
+
+#: classes/mst_users.php:16 wp-mailster.php:374 wp-mailster.php:805
+msgid "Users"
+msgstr ""
+
+#: classes/mst_users.php:142
+msgid "No users available."
+msgstr ""
+
+#: classes/mst_users.php:266 mailster/app/Events.php:49
+#: view/mail/mst_emaildetails.php:280 view/users/mst_users_add.php:119
+msgid "Description"
+msgstr ""
+
+#: conncheck.php:17
+msgid "Connection Check called"
+msgstr ""
+
+#: conncheck.php:23
+msgid "Inbox Check called"
+msgstr ""
+
+#: conncheck.php:51
+msgid "Inbox settings OK"
+msgstr ""
+
+#: conncheck.php:60 mailster/mail/MailingListMailbox.php:99
+msgid "No error messages available"
+msgstr ""
+
+#: conncheck.php:63 conncheck.php:150
+msgid "Connection NOT ok. Check your settings!"
+msgstr ""
+
+#: conncheck.php:67
+msgid ""
+"Connection not possible, no IMAP extension available in PHP installation."
+msgstr ""
+
+#: conncheck.php:68
+msgid "Install PHP with IMAP library support."
+msgstr ""
+
+#: conncheck.php:86
+msgid "Sender check called"
+msgstr ""
+
+#: conncheck.php:88
+msgid "This is a test message sent from the mailing list"
+msgstr ""
+
+#: conncheck.php:89
+msgid "at the webpage"
+msgstr ""
+
+#: conncheck.php:90
+msgid "You receive this email because you are the admin of the list."
+msgstr ""
+
+#: conncheck.php:91
+msgid "Working settings"
+msgstr ""
+
+#: conncheck.php:95 view/list/tab2.php:30 view/list/tab3.php:33
+#: view/servers/mst_servers_add.php:113
+msgid "Host/Server"
+msgstr ""
+
+#: conncheck.php:96 view/list/tab2.php:31 view/list/tab3.php:34
+#: view/servers/mst_servers_add.php:114
+msgid "Port"
+msgstr ""
+
+#: conncheck.php:97 view/list/tab2.php:15 view/list/tab3.php:17
+msgid "User/Login"
+msgstr ""
+
+#: conncheck.php:98 view/list/tab2.php:16 view/list/tab3.php:18
+msgid "Password"
+msgstr ""
+
+#: conncheck.php:98
+msgid "hidden"
+msgstr ""
+
+#: conncheck.php:99 view/list/tab2.php:43 view/list/tab3.php:35
+#: view/servers/mst_servers_add.php:115
+msgid "Secure setting"
+msgstr ""
+
+#: conncheck.php:99 view/diagnosis/mst_diagnosis.php:131 view/list/tab2.php:45
+#: view/list/tab3.php:37 view/servers/mst_servers_add.php:117
+msgid "None"
+msgstr ""
+
+#: conncheck.php:100 view/list/tab2.php:54 view/list/tab3.php:46
+#: view/servers/mst_servers_add.php:126
+msgid "Use secure authentication"
+msgstr ""
+
+#: conncheck.php:100 view/csv/import.php:663
+#: view/diagnosis/mst_diagnosis.php:190 view/diagnosis/mst_diagnosis.php:205
+#: view/mail/mst_emaildetails.php:135 view/mail/mst_emaildetails.php:181
+#: view/users/mst_users_add.php:151 view/users/mst_users_add.php:181
+#: widget/subscribe-widget.php:377 widget/subscribe-widget.php:467
+#: widget/subscribe-widget.php:489 widget/subscribe-widget.php:511
+#: widget/subscribe-widget.php:613 wp-mailster.php:1087
+msgid "No"
+msgstr ""
+
+#: conncheck.php:100 view/csv/import.php:656 view/mail/mst_emaildetails.php:135
+#: view/mail/mst_emaildetails.php:170 view/mail/mst_emaildetails.php:181
+#: view/users/mst_users_add.php:150 view/users/mst_users_add.php:180
+#: widget/subscribe-widget.php:471 widget/subscribe-widget.php:493
+#: widget/subscribe-widget.php:515 widget/subscribe-widget.php:617
+#: wp-mailster.php:1077
+msgid "Yes"
+msgstr ""
+
+#: conncheck.php:101
+msgid ""
+"If you use a public mail provider consider sharing your settings with others "
+"users"
+msgstr ""
+
+#: conncheck.php:119
+msgid "WP Mailster - Mail Sender Test Email"
+msgstr ""
+
+#: conncheck.php:123
+msgid "Admin"
+msgstr ""
+
+#: conncheck.php:144
+msgid "Sender settings OK"
+msgstr ""
+
+#: conncheck.php:145
+msgid "WP Mailster has sent a test mail to the mailing list's admin"
+msgstr ""
+
+#: conncheck.php:147
+msgid "Go check it!"
+msgstr ""
+
+#: conncheck.php:149
+msgid "Errors while sending a test mail to mailing list admin"
+msgstr ""
+
+#: conncheck.php:169
+msgid "Get Inbox status called"
+msgstr ""
+
+#: conncheck.php:174
+msgid " NOT ok. Check your settings!"
+msgstr ""
+
+#: conncheck.php:191
+msgid "Inbox status"
+msgstr ""
+
+#: conncheck.php:206
+msgid "Delete first email in inbox called"
+msgstr ""
+
+#: conncheck.php:239 conncheck.php:271
+msgid "Remove all emails in the send queue called"
+msgstr ""
+
+#: conncheck.php:292
+msgid "Unlock mailing list called"
+msgstr ""
+
+#: mailster/app/Application.php:66
+msgid ""
+"WordPress version insufficient, please check the minimum system requirements"
+msgstr ""
+
+#: mailster/app/Application.php:69
+msgid "PHP version insufficient, please check the minimum system requirements"
+msgstr ""
+
+#: mailster/app/Application.php:72
+msgid "Database collation error"
+msgstr ""
+
+#: mailster/app/Application.php:77
+msgid "OpenSSL not installed, please check system requirements"
+msgstr ""
+
+#: mailster/app/Application.php:80 view/diagnosis/mst_diagnosis.php:118
+msgid ""
+"No charset conversion functionality available, please check system "
+"requirements"
+msgstr ""
+
+#: mailster/app/Application.php:83
+msgid ""
+"PHP IMAP extension not installed, please check the minimum system "
+"requirements"
+msgstr ""
+
+#: mailster/app/Application.php:86
+msgid ""
+"parse_ini_file PHP function is disabled, please check system requirements"
+msgstr ""
+
+#: mailster/app/Application.php:90
+msgid "Log file is becoming very large"
+msgstr ""
+
+#: mailster/app/Application.php:93 view/diagnosis/mst_diagnosis.php:292
+msgid "Delete log file"
+msgstr ""
+
+#: mailster/app/Application.php:266
+msgid "Plugin (backend activity)"
+msgstr ""
+
+#: mailster/app/Application.php:269
+msgid "Plugin (frontend activity)"
+msgstr ""
+
+#: mailster/app/Application.php:272
+msgid "Cron job (fetch-all task)"
+msgstr ""
+
+#: mailster/app/Application.php:275
+msgid "Cron job (fetch task - single list)"
+msgstr ""
+
+#: mailster/app/Application.php:278
+msgid "Cron job (send task)"
+msgstr ""
+
+#: mailster/app/Application.php:281
+msgid "Cron job (all task)"
+msgstr ""
+
+#: mailster/app/Authorization.php:40
+#, php-format
+msgid "No permission to do the action: %s"
+msgstr ""
+
+#: mailster/app/Authorization.php:53
+msgid "Not authorized"
+msgstr ""
+
+#: mailster/app/Events.php:36
+#, php-format
+msgid "Send error for email on the mailing list %s"
+msgstr ""
+
+#: mailster/app/Events.php:37
+#, php-format
+msgid "Subject of the mail: %s    Error message: %s"
+msgstr ""
+
+#: mailster/app/Events.php:48 view/mail/mst_emaildetails.php:279
+msgid "Event"
+msgstr ""
+
+#: mailster/app/Events.php:99
+#, php-format
+msgid "New email on the mailing list %s"
+msgstr ""
+
+#: mailster/app/Events.php:100 mailster/app/Events.php:152
+#: mailster/app/Events.php:168 mailster/app/Events.php:184
+#: mailster/app/Events.php:201 mailster/mail/ModerationUtils.php:88
+#, php-format
+msgid "Sender of the mail: %s"
+msgstr ""
+
+#: mailster/app/Events.php:101 mailster/app/Events.php:119
+#: mailster/app/Events.php:133 mailster/app/Events.php:156
+#: mailster/app/Events.php:162 mailster/app/Events.php:169
+#: mailster/app/Events.php:185 mailster/app/Events.php:205
+#: mailster/app/Events.php:211
+#, php-format
+msgid "Subject of the mail: %s"
+msgstr ""
+
+#: mailster/app/Events.php:115
+#, php-format
+msgid "Bounced email on the mailing list %s"
+msgstr ""
+
+#: mailster/app/Events.php:148
+#, php-format
+msgid "Blocked email on the mailing list %s"
+msgstr ""
+
+#: mailster/app/Events.php:183
+#, php-format
+msgid "Filtered email on the mailing list %s"
+msgstr ""
+
+#: mailster/app/Events.php:199
+#, php-format
+msgid "Moderated email on the mailing list %s"
+msgstr ""
+
+#: mailster/app/Events.php:225
+#, php-format
+msgid "User subscribed to the mailing list %s"
+msgstr ""
+
+#: mailster/app/Events.php:226
+#, php-format
+msgid "%s (%s) registered at the mailing list %s"
+msgstr ""
+
+#: mailster/app/Events.php:237
+#, php-format
+msgid "User unsubscribed from the mailing list %s"
+msgstr ""
+
+#: mailster/app/Events.php:238
+#, php-format
+msgid "User with the email address %s unsubscribed from the mailing list %s"
+msgstr ""
+
+#: mailster/app/Events.php:303
+#, php-format
+msgid "The email address %s is not allowed to send emails to the mailing list"
+msgstr ""
+
+#: mailster/app/Events.php:305
+msgid ""
+"Email was filtered because of the email content (usage of forbidden words)"
+msgstr ""
+
+#: mailster/app/Events.php:308
+#, php-format
+msgid "Maximum allowed email size of %d kByte was exceeded"
+msgstr ""
+
+#: mailster/app/Events.php:310
+msgid "Email not forwarded"
+msgstr ""
+
+#: mailster/app/Events.php:315
+#, php-format
+msgid "Email to mailing list \"%s\" was not forwarded"
+msgstr ""
+
+#: mailster/app/Events.php:316
+#, php-format
+msgid ""
+"The email with the subject \"%s\" was not forwarded due the following "
+"reason: %s"
+msgstr ""
+
+#: mailster/app/Log.php:121
+msgid "Error"
+msgstr ""
+
+#: mailster/app/Log.php:123
+msgid "Warning"
+msgstr ""
+
+#: mailster/app/Log.php:125
+msgid "Info"
+msgstr ""
+
+#: mailster/app/Log.php:127
+msgid "Debug"
+msgstr ""
+
+#: mailster/app/Log.php:135
+msgid "Installer"
+msgstr ""
+
+#: mailster/app/Log.php:137
+msgid "Plugin"
+msgstr ""
+
+#: mailster/app/Log.php:139
+msgid "Mail Retrieving"
+msgstr ""
+
+#: mailster/app/Log.php:141
+msgid "Mail Sending"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:291
+msgid "General notification"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:294
+msgid "Mailing list notification"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:304
+msgid "New email/post"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:307
+msgid "Sender blocked"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:310
+msgid "Bounced email"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:313
+msgid "Filtered email"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:316
+msgid "User subscribed"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:319
+msgid "User unsubscribed"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:322 mailster/mail/SendEvent.php:166
+msgid "Send error"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:348 view/list/tab5.php:46
+msgid "List administrator"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:351
+msgid "CMS user"
+msgstr ""
+
+#: mailster/app/NotifyUtils.php:354
+msgid "User group"
+msgstr ""
+
+#: mailster/conf/Parameter.php:70
+msgid "There are no parameters for this item"
+msgstr ""
+
+#: mailster/lib/mathcaptcha/MathCaptcha.php:189
+msgid "What is"
+msgstr ""
+
+#: mailster/mail/DigestSender.php:81 shortcodes/profile.php:47
+#: view/list/recipients-tab1.php:20 view/list/recipients-tab1.php:30
+msgid "Digest"
+msgstr ""
+
+#: mailster/mail/MailQueue.php:201
+msgid "WP Mailster Send Error - too many recipients"
+msgstr ""
+
+#: mailster/mail/MailQueue.php:201
+msgid ""
+"You are using an edition of WP Mailster which has a limitation in the number "
+"of recipients per mailing list. We strongly recommend to not use this "
+"edition with this amount of recipients, otherwise mails may be dropped. "
+"Consider to purchase an upgrade, more information:"
+msgstr ""
+
+#: mailster/mail/MailSender.php:506
+msgid "via"
+msgstr ""
+
+#: mailster/mail/MailUtils.php:673 mailster/mail/MailUtils.php:676
+#: mailster/mail/MailUtils.php:680 mailster/mail/MailUtils.php:1080
+msgid ""
+"powered by WP Mailster - the flexible mailing list solution for WordPress, "
+"more information: "
+msgstr ""
+
+#: mailster/mail/MailUtils.php:688
+msgid ""
+"powered by WP Mailster - the flexible mailing list solution for WordPress, "
+"more information: https://wpmailster.com"
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:82
+#, php-format
+msgid "Please moderate mail: %s"
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:89
+#, php-format
+msgid "Mailing list: %s"
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:90
+msgid "Moderation Decision"
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:91
+msgid "Approve message"
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:92
+msgid "Reject message"
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:100
+msgid "Message"
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:272
+#, php-format
+msgid "Your email \"%s\" is moderated"
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:273
+#, php-format
+msgid ""
+"Your email \"%s\" sent to the mailing list %s will be reviewed by the "
+"moderator before distribution to the mailing list."
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:276
+msgid ""
+"You will receive a notification when the moderator has reviewed your message."
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:307
+#, php-format
+msgid "Your email \"%s\" was approved"
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:308
+#, php-format
+msgid ""
+"Your email \"%s\" sent to the mailing list %s was approved by the moderator. "
+"It is now forwarded to the mailing list."
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:339
+#, php-format
+msgid "Your email \"%s\" was rejected"
+msgstr ""
+
+#: mailster/mail/ModerationUtils.php:340
+#, php-format
+msgid ""
+"Your email \"%s\" sent to the mailing list %s was rejected by the moderator. "
+"It is therefore not forwarded to the mailing list."
+msgstr ""
+
+#: mailster/mail/SendEvent.php:151
+msgid "New email"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:154
+msgid "Sending run started"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:157
+msgid "Email prepared for sending"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:160
+msgid "Email prepared for recipients"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:163
+msgid "Sending successful"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:169
+msgid "Removed recipient from queue due to errors"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:172
+msgid "Aborted sending due errors"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:175
+msgid "Sending finished"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:178
+msgid "Sending run stopped"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:181
+msgid "Email resent"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:184
+msgid "Moderator approved"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:187
+msgid "Moderator rejected"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:190
+msgid "Moderation started"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:193
+msgid "Unknown send event"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:229
+#, php-format
+msgid "New mailing list email to %d recipients (size: %d kByte)"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:233 mailster/mail/SendEvent.php:258
+#, php-format
+msgid "Sending run triggered by %s (Session ID: %d)"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:236 mailster/mail/SendEvent.php:239
+#, php-format
+msgid "Email has %d remaining recipients and %d send errors yet."
+msgstr ""
+
+#: mailster/mail/SendEvent.php:242
+msgid "Successfully sent email, no send errors"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:245
+#, php-format
+msgid "Send error while sending. Email has %d send errors (max. allowed: %d)"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:245
+msgid "ERROR"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:248
+#, php-format
+msgid ""
+"Recipient caused %d send errors. There are %d total send errors (max. "
+"allowed: %d)"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:251
+#, php-format
+msgid ""
+"Email will not be sent anymore due to %d send errors (max. allowed: %d). %d "
+"remaining recipients in the email queue."
+msgstr ""
+
+#: mailster/mail/SendEvent.php:254
+#, php-format
+msgid ""
+"Successfully completed sending/forwarding process (%d send errors while "
+"sending)"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:265
+#, php-format
+msgid ""
+"User %s sent email of the list %d with resend to list %d (%d recipients "
+"added to queue)"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:268
+msgid ""
+"The email was approved after being reviewed by a moderator. It is forwarded "
+"to the mailing list."
+msgstr ""
+
+#: mailster/mail/SendEvent.php:271
+msgid ""
+"The email was rejected after being reviewed by a moderator. It is therefore "
+"not forwarded to the mailing list. Remaining queue entries (if any) will be "
+"removed."
+msgstr ""
+
+#: mailster/mail/SendEvent.php:274
+msgid "The email will be reviewed by the moderators"
+msgstr ""
+
+#: mailster/mail/SendEvent.php:277
+#, php-format
+msgid "Send event has the ID %d"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:82 mailster/subscr/SubscribeUtils.php:420
+#, php-format
+msgid "Hello %s!"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:84
+msgid "Hello"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:91
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:92
+#, php-format
+msgid "You are now subscribed to %s with the email address %s"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:100
+#, php-format
+msgid "You were removed from %s"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:101
+#, php-format
+msgid "You unsubscribed from %s with the email address %s."
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:422
+msgid "Hello!"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:429
+#, php-format
+msgid "Confirm subscription to %s"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:430
+#, php-format
+msgid "You requested to subscribe to %s with the email address %s."
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:431
+msgid "Please confirm your subscription by clicking on this link"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:432
+#: mailster/subscr/SubscribeUtils.php:440
+msgid "Click link for confirmation"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:437
+#, php-format
+msgid "Confirm unsubscription from %s"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:438
+#, php-format
+msgid "You requested to unsubscribe from %s with the email address %s."
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:439
+msgid "Please confirm your unsubscription by clicking on this link"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:729
+msgid " - No mailing list - "
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:739 view/settings/mst_settings.php:230
+msgid "Captcha"
+msgstr ""
+
+#: mailster/subscr/SubscribeUtils.php:739 view/list/tab1.php:27
+#: view/list/tab4.php:87 view/list/tab5.php:14 view/list/tab7.php:13
+#: view/list/tab7.php:24 view/list/tab7.php:34 view/list/tab8.php:12
+#: view/list/tab8.php:38 view/list/tab9.php:56 view/list/tab_moderate.php:8
+#: view/settings/mst_settings.php:121 view/settings/mst_settings.php:229
+#: view/settings/mst_settings.php:255
+#, php-format
+msgid "Available in %s"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:52 wp-mailster.php:1505
+msgid "Please provide a name"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:53
+#: mailster/subscr/SubscriberPlugin.php:239 wp-mailster.php:1506
+#: wp-mailster.php:1669
+msgid "Please provide your email address"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:54 wp-mailster.php:1507
+msgid "Invalid email address"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:55
+#: mailster/subscr/SubscriberPlugin.php:240 wp-mailster.php:1508
+#: wp-mailster.php:1671
+msgid "You have no mailing list chosen"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:56
+#: shortcodes/mst_view_mailing_list.php:46 wp-mailster.php:1509
+msgid "Too many recipients (Product limit)"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:57 wp-mailster.php:1510
+msgid "Registration currently not possible"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:58 wp-mailster.php:1511
+msgid "Subscribing not allowed for unregistered users. Please login first."
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:59
+#: mailster/subscr/SubscriberPlugin.php:241 wp-mailster.php:1512
+#: wp-mailster.php:1674
+msgid "The captcha code you entered was wrong, please try again"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:148
+#: mailster/subscr/SubscriberPlugin.php:328
+msgid "Unknown list"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:185 models/MailsterModelDigest.php:40
+#: models/MailsterModelDigest.php:61 models/MailsterModelDigest.php:78
+#: shortcodes/profile.php:83
+msgid "No digest"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:186 models/MailsterModelDigest.php:41
+#: models/MailsterModelDigest.php:64
+msgid "Daily digest"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:187 models/MailsterModelDigest.php:42
+#: models/MailsterModelDigest.php:67
+msgid "Weekly digest"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:188 models/MailsterModelDigest.php:43
+#: models/MailsterModelDigest.php:70
+msgid "Monthly digest"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:242 wp-mailster.php:1673
+msgid "Email address is not subscribed"
+msgstr ""
+
+#: mailster/subscr/SubscriberPlugin.php:243 wp-mailster.php:1672
+msgid "Unsubscribing currently not possible"
+msgstr ""
+
+#: mailster/utils/Captcha.php:50 mailster/utils/Captcha.php:107
+msgid "reCAPTCHA version no longer supported"
+msgstr ""
+
+#: mailster/utils/Captcha.php:74 mailster/utils/Captcha.php:153
+msgid ""
+"Please provide reCAPTCHA API keys in the configuration settings of WP "
+"Mailster"
+msgstr ""
+
+#: mailster/utils/Captcha.php:92
+msgid "Unkown CAPTCHA"
+msgstr ""
+
+#: mailster/utils/DB.php:84 mailster/utils/DB.php:90
+msgid "Unable to retrieve the error message from MySQL"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:102
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:117
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:124 mailster/utils/DateUtils.php:140
+msgid "second"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:128
+msgid "years"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:128
+msgid "year"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:131
+msgid "days"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:131 view/diagnosis/mst_diagnosis.php:226
+#: view/diagnosis/mst_diagnosis.php:231
+msgid "day"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:134
+msgid "hours"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:134
+msgid "hour"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:137
+msgid "minutes"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:137
+msgid "minute"
+msgstr ""
+
+#: mailster/utils/DateUtils.php:140
+msgid "seconds"
+msgstr ""
+
+#: mailster/utils/FileUtils.php:92
+msgid "B"
+msgstr ""
+
+#: mailster/utils/FileUtils.php:94
+msgid "KB"
+msgstr ""
+
+#: mailster/utils/FileUtils.php:96
+msgid "MB"
+msgstr ""
+
+#: mailster/utils/FileUtils.php:98
+msgid "GB"
+msgstr ""
+
+#: mailster/utils/FileUtils.php:100
+msgid "TB"
+msgstr ""
+
+#: mailster/utils/pairlist.php:42
+msgid "Type text to filter"
+msgstr ""
+
+#: mailster/utils/pairlist.php:58
+msgid "select all"
+msgstr ""
+
+#: mailster/utils/pairlist.php:59
+msgid "add selected"
+msgstr ""
+
+#: mailster/utils/pairlist.php:61
+msgid "remove selected"
+msgstr ""
+
+#: mailster/utils/pairlist.php:62
+msgid "remove all"
+msgstr ""
+
+#: models/MailsterModelDigest.php:81
+msgid "Today's topic summary"
+msgstr ""
+
+#: models/MailsterModelDigest.php:84
+msgid "Last week's topic summary"
+msgstr ""
+
+#: models/MailsterModelDigest.php:87
+msgid "Last month's topic summary"
+msgstr ""
+
+#: models/MailsterModelServer.php:66 models/MailsterModelServer.php:79
+msgid "New Server"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:358
+msgid "Check for updates"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:405
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:407
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:409
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p1/Vcs/PluginUpdateChecker.php:83
+msgid "There is no changelog available."
+msgstr ""
+
+#: shortcodes/mail.php:43
+msgid "Back to previous view"
+msgstr ""
+
+#: shortcodes/mail.php:50 shortcodes/thread.php:72 shortcodes/threads.php:113
+#: view/mail/mst_emaildetails.php:219
+msgid "Attachments"
+msgstr ""
+
+#: shortcodes/mails.php:75 shortcodes/threads.php:74
+msgid "- All Mailing Lists -"
+msgstr ""
+
+#: shortcodes/mails.php:100 shortcodes/threads.php:95
+msgid "%Y-%M-%D"
+msgstr ""
+
+#: shortcodes/mails.php:106
+msgid "All Emails"
+msgstr ""
+
+#: shortcodes/mails.php:108 shortcodes/threads.php:99
+msgid "Go Back"
+msgstr ""
+
+#: shortcodes/mails.php:117 shortcodes/threads.php:105 wp-mailster.php:279
+#: wp-mailster.php:441 wp-mailster.php:534 wp-mailster.php:666
+#: wp-mailster.php:757 wp-mailster.php:819 wp-mailster.php:881
+msgid "Search"
+msgstr ""
+
+#: shortcodes/mails.php:125
+msgid "Sender"
+msgstr ""
+
+#: shortcodes/mails.php:126 view/list/tab6.php:41 view/list/tab6.php:47
+#: view/list/tab6.php:94 view/mail/mst_emaildetails.php:124
+#: view/settings/mst_settings.php:81
+msgid "Sender address"
+msgstr ""
+
+#: shortcodes/mails.php:140 shortcodes/threads.php:128
+msgid "Has attachments"
+msgstr ""
+
+#: shortcodes/mails.php:159 shortcodes/threads.php:149
+msgid "Previous"
+msgstr ""
+
+#: shortcodes/mails.php:164 shortcodes/threads.php:154
+msgid "Next"
+msgstr ""
+
+#: shortcodes/mails.php:170
+msgid "You do not have access to see this."
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:8
+#: shortcodes/mst_view_mailing_list.php:11
+#, php-format
+msgid "Shortcode %s not available in product edition %s"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:45
+msgid "Cannot subscribe"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:53
+msgid "Subscription successful"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:66
+msgid "Unsubscription successful"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:68
+msgid "There was a problem unsubscribing you from this list"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:89
+msgid "Emails"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:104
+msgid "View emails"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:105
+msgid "View emails in threads"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:118 shortcodes/profile.php:95
+#: widget/subscribe-widget.php:303 widget/subscribe-widget.php:652
+#: widget/subscribe-widget.php:751 widget/subscribe-widget.php:759
+msgid "Unsubscribe"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:125 shortcodes/profile.php:103
+#: widget/subscribe-widget.php:299 widget/subscribe-widget.php:550
+#: widget/subscribe-widget.php:750
+msgid "Subscribe"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:146
+msgid "No record found"
+msgstr ""
+
+#: shortcodes/mst_view_mailing_list.php:156
+msgid "Print this page"
+msgstr ""
+
+#: shortcodes/profile.php:13 shortcodes/profile_digest.php:32
+#: shortcodes/profile_subscribe.php:19 shortcodes/profile_unsubscribe.php:15
+msgid "You need to login to access this section"
+msgstr ""
+
+#: shortcodes/profile.php:49
+msgid "Action"
+msgstr ""
+
+#: shortcodes/profile.php:64
+msgid "Subscribed"
+msgstr ""
+
+#: shortcodes/profile.php:66
+msgid "Not Subscribed"
+msgstr ""
+
+#: shortcodes/profile.php:79
+msgid "Edit digest"
+msgstr ""
+
+#: shortcodes/profile_digest.php:108
+msgid "Digest frequency"
+msgstr ""
+
+#: shortcodes/profile_digest.php:118
+msgid "Digest Last Sending"
+msgstr ""
+
+#: shortcodes/profile_digest.php:127
+msgid "Save"
+msgstr ""
+
+#: shortcodes/profile_subscribe.php:33
+msgid "Subscription Successful"
+msgstr ""
+
+#: shortcodes/profile_subscribe.php:39
+msgid "Subscription Failed"
+msgstr ""
+
+#: shortcodes/profile_subscribe.php:44
+msgid ""
+"Subscription Successful. Please confirm by clicking the link in the "
+"confirmation email that was sent to you."
+msgstr ""
+
+#: shortcodes/profile_unsubscribe.php:31
+msgid "Unsubscription Successful"
+msgstr ""
+
+#: shortcodes/profile_unsubscribe.php:37
+msgid "Unsubscription Failed"
+msgstr ""
+
+#: shortcodes/profile_unsubscribe.php:42
+msgid ""
+"Unsubscription Successful. Please confirm by clicking the link in the "
+"confirmation email that was sent to you."
+msgstr ""
+
+#: shortcodes/thread.php:34
+msgid "Back to previous page"
+msgstr ""
+
+#: shortcodes/threads.php:112 view/list/recipients-tab1.php:16
+#: view/list/recipients-tab1.php:26 view/list/recipients-tab2.php:14
+#: view/list/recipients-tab2.php:22 view/list/recipients-tab3.php:14
+#: view/list/recipients-tab3.php:21
+msgid "Num"
+msgstr ""
+
+#: shortcodes/threads.php:115 view/csv/export.php:147
+msgid "Mailing list"
+msgstr ""
+
+#: site/cronClass.php:219
+msgid "Error: Invalid cronjob key"
+msgstr ""
+
+#: view/csv/export.php:93
+msgid "Export users"
+msgstr ""
+
+#: view/csv/export.php:101
+msgid "Export Options"
+msgstr ""
+
+#: view/csv/export.php:104 view/csv/export.php:109 view/csv/import.php:670
+#: view/csv/import.php:675
+msgid "Character/letter separating name and email column"
+msgstr ""
+
+#: view/csv/export.php:105 view/csv/import.php:671
+msgid "Delimiter"
+msgstr ""
+
+#: view/csv/export.php:115 view/csv/import.php:680
+msgid "Order of the columns (name, email) in the CSV file"
+msgstr ""
+
+#: view/csv/export.php:116
+msgid "Data order in CSV File"
+msgstr ""
+
+#: view/csv/export.php:121 view/csv/import.php:686
+msgid "Name [delimiter] Email"
+msgstr ""
+
+#: view/csv/export.php:129 view/csv/import.php:693
+msgid "Email [delimiter] Name"
+msgstr ""
+
+#: view/csv/export.php:133
+msgid "Export source"
+msgstr ""
+
+#: view/csv/export.php:137
+msgid "Export users of"
+msgstr ""
+
+#: view/csv/export.php:149 view/csv/import.php:785
+msgid "Choose a mailing list"
+msgstr ""
+
+#: view/csv/export.php:179
+msgid "Choose a group"
+msgstr ""
+
+#: view/csv/export.php:200
+msgid "Export now"
+msgstr ""
+
+#: view/csv/export.php:208
+msgid "Download exported file by clicking here"
+msgstr ""
+
+#: view/csv/import.php:155
+msgid "CSV format not recognized"
+msgstr ""
+
+#: view/csv/import.php:225 view/csv/import.php:226
+#, php-format
+msgid "Your server only supports importing a maximum of %d entries at once!"
+msgstr ""
+
+#: view/csv/import.php:230
+msgid "File Loaded Successfully"
+msgstr ""
+
+#: view/csv/import.php:234 view/csv/import.php:240
+msgid "File not found"
+msgstr ""
+
+#: view/csv/import.php:250
+msgid "CSV Import"
+msgstr ""
+
+#: view/csv/import.php:252 view/csv/import.php:254
+msgid "step"
+msgstr ""
+
+#: view/csv/import.php:504
+#, php-format
+msgid "User with email %s, does not have a name."
+msgstr ""
+
+#: view/csv/import.php:568
+#, php-format
+msgid "Successfully imported %d users."
+msgstr ""
+
+#: view/csv/import.php:573
+msgid "New users were added to the list"
+msgstr ""
+
+#: view/csv/import.php:586
+msgid "New users were added to the group"
+msgstr ""
+
+#: view/csv/import.php:620
+msgid "Import Source"
+msgstr ""
+
+#: view/csv/import.php:627
+msgid "Upload file (local)"
+msgstr ""
+
+#: view/csv/import.php:639 view/csv/import.php:644
+msgid ""
+"Path relative to WordPress's base directory (e.g. /wp-content/uploads/"
+"importme.csv means that the file importme.csv is in WordPress's uploads "
+"folder)"
+msgstr ""
+
+#: view/csv/import.php:640
+msgid "File Path (server)"
+msgstr ""
+
+#: view/csv/import.php:650 view/csv/import.php:651
+msgid "Automatically detect CSV file format"
+msgstr ""
+
+#: view/csv/import.php:681
+msgid "Data order in CSV file"
+msgstr ""
+
+#: view/csv/import.php:699
+msgid "Import Result"
+msgstr ""
+
+#: view/csv/import.php:711
+#, php-format
+msgid "%d user data sets found"
+msgstr ""
+
+#: view/csv/import.php:719
+msgid "Import Options"
+msgstr ""
+
+#: view/csv/import.php:723
+msgid "Decide how duplicate user data records are treated if they occur"
+msgstr ""
+
+#: view/csv/import.php:724
+msgid "Options for duplicates"
+msgstr ""
+
+#: view/csv/import.php:729
+msgid "Merge user data (no duplicates)"
+msgstr ""
+
+#: view/csv/import.php:738
+msgid "Ignore (don't avoid duplicates)"
+msgstr ""
+
+#: view/csv/import.php:745
+msgid ""
+"Specify if the users should be directly added to a group or a mailing list "
+"(optional)"
+msgstr ""
+
+#: view/csv/import.php:746
+msgid "Import users and..."
+msgstr ""
+
+#: view/csv/import.php:751
+msgid " Nothing else (import only)"
+msgstr ""
+
+#: view/csv/import.php:760
+msgid "Add to group"
+msgstr ""
+
+#: view/csv/import.php:763
+msgid "Choose Group"
+msgstr ""
+
+#: view/csv/import.php:765 view/csv/import.php:776
+#: view/groups/mst_groups_add.php:16
+msgid "New Group"
+msgstr ""
+
+#: view/csv/import.php:776
+msgid "New Group Name"
+msgstr ""
+
+#: view/csv/import.php:782
+msgid "Add as recipients"
+msgstr ""
+
+#: view/csv/import.php:806
+msgid "Import Now"
+msgstr ""
+
+#: view/csv/import.php:812
+msgid "Save New Users"
+msgstr ""
+
+#: view/csv/import.php:813
+msgid "Preview Users to Import"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:46 view/stats/mst_intro.php:31
+#: wp-mailster.php:273
+msgid "Product Edition"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:47 view/settings/mst_settings.php:23
+#: view/stats/mst_intro.php:32 view/stats/mst_intro.php:50
+msgid "License Key"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:48 view/stats/mst_intro.php:33
+msgid "License Expiration"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:48 view/stats/mst_intro.php:33
+#: wp-mailster.php:276
+msgid "Expired"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:53
+#, php-format
+msgid "No license information found for license %s"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:70
+msgid "System Properties"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:77 view/stats/mst_intro.php:111
+msgid "License"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:87
+msgid "Database"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:87
+msgid "Version"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:92
+msgid "Operating System"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:97
+msgid "PHP version"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:102
+msgid "Max. Execution Time"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:107
+msgid "Memory Limit"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:137
+msgid "Database version"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:170
+msgid "WordPress version"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:175
+msgid "Timezone"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:184
+msgid "Site Url"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:189 view/list/tab2.php:35
+#: view/servers/mst_servers_add.php:136
+msgid "IMAP"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:190 view/diagnosis/mst_diagnosis.php:205
+msgid "Loaded"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:195 view/settings/mst_settings.php:297
+msgid "Open mailbox timeout"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:195 view/list/tab6.php:40
+#: view/list/tab6.php:60
+msgid "Global setting"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:204
+msgid "OpenSSL"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:214
+msgid "Statistics"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:218
+msgid "General stats"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:221 view/diagnosis/mst_diagnosis.php:245
+msgid "Last email sent"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:226
+msgid "Last hour mails sent in"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:231
+msgid "Number of mails sent in last hour"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:239 view/stats/mst_intro.php:132
+msgid "Mailing lists"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:243
+msgid "Last check"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:244
+msgid "Last email retrieved"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:268
+msgid "Logging"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:272
+msgid "Logging enabled"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:273 view/diagnosis/mst_diagnosis.php:277
+#: view/diagnosis/mst_diagnosis.php:281
+msgid "yes"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:273 view/diagnosis/mst_diagnosis.php:277
+#: view/diagnosis/mst_diagnosis.php:281
+msgid "no"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:276
+msgid "Logging possible"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:280 view/settings/mst_settings.php:338
+msgid "Force logging"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:284 view/settings/mst_settings.php:321
+msgid "Logging Level"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:288
+msgid "Log file size"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:291
+msgid "Download"
+msgstr ""
+
+#: view/diagnosis/mst_diagnosis.php:303
+msgid "Connection Check"
+msgstr ""
+
+#: view/diagnosis/mst_inbox_test.php:16
+msgid "Not OK"
+msgstr ""
+
+#: view/diagnosis/mst_inbox_test.php:24
+msgid "Error messages available"
+msgstr ""
+
+#: view/diagnosis/mst_inbox_test.php:27
+msgid "OK"
+msgstr ""
+
+#: view/groups/mst_groups_add.php:17 wp-mailster.php:359 wp-mailster.php:382
+msgid "Add Group"
+msgstr ""
+
+#: view/groups/mst_groups_add.php:82 view/list/recipients-tab3.php:42
+msgid "Edit Group"
+msgstr ""
+
+#: view/groups/mst_groups_add.php:83
+msgid "Update Group"
+msgstr ""
+
+#: view/groups/mst_groups_add.php:128 view/users/mst_users_add.php:134
+msgid "Group Name"
+msgstr ""
+
+#: view/groups/mst_groups_add.php:134
+msgid "Choose users to add to group"
+msgstr ""
+
+#: view/groups/mst_groups_add.php:147 view/list/mst_list_groups_add.php:140
+#: view/list/mst_list_members_add.php:202
+msgid "Add all"
+msgstr ""
+
+#: view/groups/mst_groups_add.php:148 view/list/mst_list_groups_add.php:141
+#: view/list/mst_list_members_add.php:203
+msgid "Add selected"
+msgstr ""
+
+#: view/groups/mst_groups_add.php:149 view/list/mst_list_groups_add.php:142
+#: view/list/mst_list_members_add.php:204
+msgid "Remove selected"
+msgstr ""
+
+#: view/groups/mst_groups_add.php:150 view/list/mst_list_groups_add.php:143
+#: view/list/mst_list_members_add.php:205
+msgid "Remove all"
+msgstr ""
+
+#: view/list/mst_digest_management.php:43
+#: view/list/mst_digest_management.php:51
+msgid "Save Digest"
+msgstr ""
+
+#: view/list/mst_digest_management.php:64
+msgid "Add Digest"
+msgstr ""
+
+#: view/list/mst_digest_management.php:98
+msgid "Manage Digest"
+msgstr ""
+
+#: view/list/mst_digest_management.php:116
+msgid "User data origin"
+msgstr ""
+
+#: view/list/mst_digest_management.php:140
+msgid "Digest Frequency"
+msgstr ""
+
+#: view/list/mst_digest_management.php:148
+msgid "Digest last sent"
+msgstr ""
+
+#: view/list/mst_digest_management.php:156
+msgid "Digest next sending"
+msgstr ""
+
+#: view/list/mst_digest_management.php:164
+#: view/list/mst_list_groups_add.php:158 view/list/mst_list_members_add.php:222
+msgid "Back"
+msgstr ""
+
+#: view/list/mst_digest_management.php:186
+msgid "Digest Queue"
+msgstr ""
+
+#: view/list/mst_digest_management.php:211
+msgid "Queue empty"
+msgstr ""
+
+#: view/list/mst_list_groups_add.php:77 view/list/mst_list_members_add.php:104
+msgid "Too many recipients, max list members limit reached."
+msgstr ""
+
+#: view/list/mst_list_groups_add.php:92
+msgid "Group(s) successfully updated"
+msgstr ""
+
+#: view/list/mst_list_groups_add.php:117
+msgid "Manage Groups"
+msgstr ""
+
+#: view/list/mst_list_groups_add.php:122
+msgid "Manage List Groups"
+msgstr ""
+
+#: view/list/mst_list_groups_add.php:125
+msgid "Choose groups to add to list"
+msgstr ""
+
+#: view/list/mst_list_groups_add.php:134
+msgid "No groups found"
+msgstr ""
+
+#: view/list/mst_list_groups_add.php:160 view/list/mst_list_members_add.php:224
+msgid "Save changes"
+msgstr ""
+
+#: view/list/mst_list_members_add.php:127
+#, php-format
+msgid "%d user(s) were added to list"
+msgstr ""
+
+#: view/list/mst_list_members_add.php:130
+#: view/list/mst_list_members_add.php:147
+#, php-format
+msgid "%d user(s) were removed from the list"
+msgstr ""
+
+#: view/list/mst_list_members_add.php:181
+msgid "Manage Members"
+msgstr ""
+
+#: view/list/mst_list_members_add.php:186
+msgid "Manage List Members"
+msgstr ""
+
+#: view/list/mst_list_members_add.php:189
+msgid "Choose users to add to list"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:16
+msgid "New user added successfully."
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:18
+msgid "User updated successfully."
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:21
+msgid "New Mailing List"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:22 wp-mailster.php:356
+msgid "Add Mailing List"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:113
+msgid "There was an error while saving the inbox server. Please try again."
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:161
+msgid "There was an error while saving the outbox server. Please try again."
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:366
+msgid "Something went wrong, data not saved. Please try again."
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:368
+msgid "Mailing list saved successfully."
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:401
+msgid "Edit Mailing List"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:402
+msgid "Update Mailing List"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:631
+msgid "Deleted Notification"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:651
+msgid "General"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:652
+msgid "Mailbox settings"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:653
+msgid "Sender settings"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:654
+msgid "Mail content"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:655
+msgid "List behaviour"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:656 view/mail/mst_emaildetails.php:117
+msgid "Moderation"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:657
+msgid "Sending behaviour"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:658
+msgid "Subscribing"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:659
+msgid "Archiving"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:660 view/list/tab_moderate.php:80
+msgid "Notifications"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:661 view/stats/mst_intro.php:204
+msgid "Tools"
+msgstr ""
+
+#: view/list/mst_mailing_list_add.php:747
+msgid "Undo Add"
+msgstr ""
+
+#: view/list/mst_recipient_management.php:62
+msgid "Mailing List Recipient Management"
+msgstr ""
+
+#: view/list/mst_recipient_management.php:66 view/list/recipients-tab1.php:10
+msgid "All Recipients"
+msgstr ""
+
+#: view/list/mst_recipient_management.php:67
+msgid "List Members"
+msgstr ""
+
+#: view/list/mst_recipient_management.php:68 view/list/recipients-tab3.php:8
+msgid "List Groups"
+msgstr ""
+
+#: view/list/mst_recipient_management.php:81
+msgid "back"
+msgstr ""
+
+#: view/list/recipients-tab1.php:12
+#, php-format
+msgid "%s recipients"
+msgstr ""
+
+#: view/list/recipients-tab1.php:61
+msgid "Edit Digest"
+msgstr ""
+
+#: view/list/recipients-tab2.php:8
+msgid "List Users"
+msgstr ""
+
+#: view/list/recipients-tab2.php:9
+msgid "Edit List Members"
+msgstr ""
+
+#: view/list/recipients-tab2.php:17 view/list/recipients-tab2.php:25
+msgid "User Type"
+msgstr ""
+
+#: view/list/recipients-tab2.php:50
+msgid "Edit User"
+msgstr ""
+
+#: view/list/recipients-tab3.php:9
+msgid "Edit List Groups"
+msgstr ""
+
+#: view/list/tab1.php:8 view/list/tab4.php:52 view/list/tab6.php:63
+#: view/list/tab6.php:79 view/settings/mst_settings.php:102
+msgid "Mailing list name"
+msgstr ""
+
+#: view/list/tab1.php:8
+msgid ""
+"Choose a unique and presentable name - the name of the mailing list is also "
+"used in the frontend."
+msgstr ""
+
+#: view/list/tab1.php:9 view/list/tab6.php:41 view/list/tab6.php:48
+#: view/list/tab6.php:93 view/settings/mst_settings.php:82
+msgid "Mailing list address"
+msgstr ""
+
+#: view/list/tab1.php:9
+msgid ""
+"Email address used for sending emails to the mailing list. Belongs to the "
+"mailbox settings defined in the next tab."
+msgstr ""
+
+#: view/list/tab1.php:10 view/list/tab4.php:54
+msgid "Mailing list admin email"
+msgstr ""
+
+#: view/list/tab1.php:10
+msgid ""
+"The mailing list administrator is responsible for managing the mailing list. "
+"Please provide an existing email address so that the mailing list "
+"administrator can get important notifications."
+msgstr ""
+
+#: view/list/tab1.php:11 wp-mailster.php:275
+msgid "Active"
+msgstr ""
+
+#: view/list/tab1.php:11
+msgid ""
+"Determines whether or not the mailing list retrieves the emails in the "
+"mailing list's inbox and forwards them to the recipients."
+msgstr ""
+
+#: view/list/tab1.php:14 view/list/tab1.php:27
+msgid "Allowed to access emails in frontend"
+msgstr ""
+
+#: view/list/tab1.php:16
+msgid "All users"
+msgstr ""
+
+#: view/list/tab1.php:17
+msgid "Logged-in users"
+msgstr ""
+
+#: view/list/tab1.php:18
+msgid "Logged-in subscribers (of the mailing lists)"
+msgstr ""
+
+#: view/list/tab1.php:19
+msgid "Nobody"
+msgstr ""
+
+#: view/list/tab1.php:24 view/list/tab1.php:27
+msgid ""
+"User authorized to access the content of the mailing list emails in the "
+"frontend email archives"
+msgstr ""
+
+#: view/list/tab10.php:6
+msgid ""
+"This tab presents various tools that work with the mailing list. Please be "
+"careful when using them and read the documentation first in case of "
+"questions."
+msgstr ""
+
+#: view/list/tab10.php:22
+msgid "Retrieve inbox status"
+msgstr ""
+
+#: view/list/tab10.php:28
+msgid "Delete first email in inbox"
+msgstr ""
+
+#: view/list/tab10.php:34
+msgid "Delete all emails in inbox"
+msgstr ""
+
+#: view/list/tab10.php:40
+msgid "Remove all emails in the send queue"
+msgstr ""
+
+#: view/list/tab10.php:50
+msgid "Unlock mailing list"
+msgstr ""
+
+#: view/list/tab2.php:13
+msgid "Inbox server"
+msgstr ""
+
+#: view/list/tab2.php:15 view/list/tab3.php:17
+msgid ""
+"User that is used to login to the mailbox. Often the email address or the "
+"email address without the domain part."
+msgstr ""
+
+#: view/list/tab2.php:16 view/list/tab3.php:18
+msgid "Email Password. Allowed special characters: @!$%&/~*#.:,_"
+msgstr ""
+
+#: view/list/tab2.php:20 view/list/tab3.php:23
+msgid "Show / edit server settings"
+msgstr ""
+
+#: view/list/tab2.php:30 view/list/tab3.php:33
+#: view/servers/mst_servers_add.php:113
+msgid "Domain/IP of the mail server"
+msgstr ""
+
+#: view/list/tab2.php:31 view/list/tab3.php:34
+#: view/servers/mst_servers_add.php:114
+msgid "Port number of the mail service (depends on the protocol)"
+msgstr ""
+
+#: view/list/tab2.php:32 view/servers/mst_servers_add.php:133
+msgid "Protocol"
+msgstr ""
+
+#: view/list/tab2.php:34 view/servers/mst_servers_add.php:135
+msgid "POP3"
+msgstr ""
+
+#: view/list/tab2.php:36 view/servers/mst_servers_add.php:137
+msgid "NNTP"
+msgstr ""
+
+#: view/list/tab2.php:41 view/servers/mst_servers_add.php:142
+msgid "Protocol of the mail server"
+msgstr ""
+
+#: view/list/tab2.php:46 view/list/tab3.php:38
+#: view/servers/mst_servers_add.php:118
+msgid "SSL"
+msgstr ""
+
+#: view/list/tab2.php:47 view/list/tab3.php:39
+#: view/servers/mst_servers_add.php:119
+msgid "TLS"
+msgstr ""
+
+#: view/list/tab2.php:52 view/list/tab3.php:44
+#: view/servers/mst_servers_add.php:124
+msgid ""
+"Security settings related to the communication between WP Mailster and the "
+"mail server"
+msgstr ""
+
+#: view/list/tab2.php:54 view/list/tab3.php:46
+#: view/servers/mst_servers_add.php:126
+msgid ""
+"Secure authentication = send encrypted password, must be supported by the "
+"mail server"
+msgstr ""
+
+#: view/list/tab2.php:55 view/servers/mst_servers_add.php:144
+msgid "Special Parameters"
+msgstr ""
+
+#: view/list/tab2.php:55 view/servers/mst_servers_add.php:144
+msgid ""
+"Special Parameters (optional), not needed for all mail servers. For example "
+"when you use a server with a self signed certificate you have to use the "
+"parameter /novalidate-cert to deactivate the certificate check during the "
+"connection start."
+msgstr ""
+
+#: view/list/tab2.php:60 view/list/tab3.php:51
+#: view/servers/mst_servers_add.php:153
+msgid ""
+"Not sure which settings you need? Have a look at what other WP Mailster "
+"users have used!"
+msgstr ""
+
+#: view/list/tab2.php:70 view/list/tab3.php:60
+msgid "Test connection"
+msgstr ""
+
+#: view/list/tab3.php:8
+msgid "Use WordPress mailer"
+msgstr ""
+
+#: view/list/tab3.php:8
+msgid ""
+"You can either use the settings of WordPress's global configuration or use a "
+"connection to a SMTP server"
+msgstr ""
+
+#: view/list/tab3.php:15
+msgid "SMTP server"
+msgstr ""
+
+#: view/list/tab4.php:15
+msgid "By {name} ({email}) on {date}:"
+msgstr ""
+
+#: view/list/tab4.php:30
+msgid "By mailster_var_name (mailster_var_email) on mailster_var_date"
+msgstr ""
+
+#: view/list/tab4.php:42
+msgid ""
+"You can use the text placeholders within the subject prefix, the mail "
+"content's header and mail content's footer."
+msgstr ""
+
+#: view/list/tab4.php:45
+msgid "Text placeholders"
+msgstr ""
+
+#: view/list/tab4.php:46
+msgid "Sender email address"
+msgstr ""
+
+#: view/list/tab4.php:47 view/list/tab6.php:66 view/list/tab6.php:78
+#: view/settings/mst_settings.php:101
+msgid "Sender name"
+msgstr ""
+
+#: view/list/tab4.php:48
+msgid "Sender description"
+msgstr ""
+
+#: view/list/tab4.php:49
+msgid "Send time/date"
+msgstr ""
+
+#: view/list/tab4.php:50
+msgid "Original TO recipients"
+msgstr ""
+
+#: view/list/tab4.php:51
+msgid "Original CC recipients"
+msgstr ""
+
+#: view/list/tab4.php:53
+msgid "Mailing list email address"
+msgstr ""
+
+#: view/list/tab4.php:55
+msgid "Site name"
+msgstr ""
+
+#: view/list/tab4.php:56
+msgid "Unsubscribe URL"
+msgstr ""
+
+#: view/list/tab4.php:57
+msgid "Recipient email"
+msgstr ""
+
+#: view/list/tab4.php:58
+msgid "Recipient name"
+msgstr ""
+
+#: view/list/tab4.php:60
+msgid "Example"
+msgstr ""
+
+#: view/list/tab4.php:62
+msgid ""
+"You can only use the recipient specific text variables when you use the “No "
+"BCC addressing, send one mail per recipient” addressing method. Only then "
+"the personalization can be done."
+msgstr ""
+
+#: view/list/tab4.php:69
+msgid "Subject prefix text"
+msgstr ""
+
+#: view/list/tab4.php:69
+msgid ""
+"Text is put in front of the subject of each mailing list email (insert "
+"separating whitespace if wanted). May also contain text variables."
+msgstr ""
+
+#: view/list/tab4.php:70
+msgid "Clean up subject"
+msgstr ""
+
+#: view/list/tab4.php:70
+msgid ""
+"The subject of replies are automatically made consistent (e.g. \"Re: "
+"Original subject\" instead of \"RE: AW: Re: Original subject\")"
+msgstr ""
+
+#: view/list/tab4.php:71
+msgid "Convert email format to"
+msgstr ""
+
+#: view/list/tab4.php:73
+msgid "No conversion"
+msgstr ""
+
+#: view/list/tab4.php:74
+msgid "HTML email"
+msgstr ""
+
+#: view/list/tab4.php:75
+msgid "Plain email"
+msgstr ""
+
+#: view/list/tab4.php:80
+msgid ""
+"The email format can be unified (advantage: header/footer always look the "
+"same) or it can be left unchanged"
+msgstr ""
+
+#: view/list/tab4.php:82
+msgid "Text version in html email"
+msgstr ""
+
+#: view/list/tab4.php:82
+msgid ""
+"It is a good idea to include a (plain) text version in HTML emails so that "
+"the readability is ensured"
+msgstr ""
+
+#: view/list/tab4.php:85 view/list/tab4.php:87
+msgid "Disable \"powered by Mailster\" email footer"
+msgstr ""
+
+#: view/list/tab4.php:85
+msgid "Disable the automatic inserted \"powered by Mailster\" footer"
+msgstr ""
+
+#: view/list/tab4.php:92
+msgid "Custom header"
+msgstr ""
+
+#: view/list/tab4.php:95
+msgid "Show custom header"
+msgstr ""
+
+#: view/list/tab4.php:100
+msgid "Custom header (Text)"
+msgstr ""
+
+#: view/list/tab4.php:108
+msgid "Custom header (HTML)"
+msgstr ""
+
+#: view/list/tab4.php:131
+msgid "Custom footer"
+msgstr ""
+
+#: view/list/tab4.php:134
+msgid "Show custom footer"
+msgstr ""
+
+#: view/list/tab4.php:139
+msgid "Custom footer (Text)"
+msgstr ""
+
+#: view/list/tab4.php:147
+msgid "Custom footer (HTML)"
+msgstr ""
+
+#: view/list/tab5.php:8
+msgid "Mail copy to sender"
+msgstr ""
+
+#: view/list/tab5.php:8
+msgid ""
+"The sender of an email can also get the forwarded email. By receiving the "
+"copy he can verify that the email was forwarded successfully to the mailing "
+"list."
+msgstr ""
+
+#: view/list/tab5.php:9
+msgid "Email Size Limit"
+msgstr ""
+
+#: view/list/tab5.php:9
+msgid ""
+"Maximum allowed email size in kByte. If emails are larger than this size "
+"they are blocked and not forwarded. 0 and empty field means no size limit - "
+"all emails no matter how large are forwarded.."
+msgstr ""
+
+#: view/list/tab5.php:12 view/list/tab5.php:14
+#: view/settings/mst_settings.php:122
+msgid "Email content filtering"
+msgstr ""
+
+#: view/list/tab5.php:12 view/list/tab5.php:14
+msgid ""
+"Emails can be filtered based on their content. If one of the words to filter "
+"is found, then the email is not forwarded to the mailing list and is shown "
+"as filtered in the email archive."
+msgstr ""
+
+#: view/list/tab5.php:16
+msgid "Allow bulk messages (not recommended)"
+msgstr ""
+
+#: view/list/tab5.php:16
+msgid ""
+"Messages with the email header Precendence:bulk are not forwarded by default "
+"to avoid sending out messages like Out-Of-Office notifications. You can "
+"disable the filtering mechanism, but you should only do this when you are "
+"fully aware of the potential negative results."
+msgstr ""
+
+#: view/list/tab5.php:20
+msgid "Allowed to send/post"
+msgstr ""
+
+#: view/list/tab5.php:24 view/list/tab5.php:26 view/list/tab5.php:32
+msgid ""
+"You can either allow everybody to post (every email is forwarded to the "
+"mailing list) or you can limit the right to send to certain persons or "
+"groups of persons"
+msgstr ""
+
+#: view/list/tab5.php:25
+msgid "Everybody (Public)"
+msgstr ""
+
+#: view/list/tab5.php:33
+msgid "Restricted, allowed senders"
+msgstr ""
+
+#: view/list/tab5.php:40
+msgid "All recipients"
+msgstr ""
+
+#: view/list/tab5.php:67 view/list/tab_moderate.php:54
+#: view/list/tab_moderate.php:74
+msgid "Create groups first"
+msgstr ""
+
+#: view/list/tab6.php:9
+msgid "Recipient addressing"
+msgstr ""
+
+#: view/list/tab6.php:17
+msgid "Use BCC addressing, hide recipients (recommended)"
+msgstr ""
+
+#: view/list/tab6.php:20 view/list/tab6.php:21
+msgid "BCC recipients per mail"
+msgstr ""
+
+#: view/list/tab6.php:25
+msgid "Include original TO and CC header addressees (Not recommended)"
+msgstr ""
+
+#: view/list/tab6.php:34
+msgid "No BCC addressing, send one mail per recipient"
+msgstr ""
+
+#: view/list/tab6.php:44
+msgid "From email address"
+msgstr ""
+
+#: view/list/tab6.php:46 view/list/tab6.php:77
+msgid "Global setting (Mailster config)"
+msgstr ""
+
+#: view/list/tab6.php:69 view/list/tab6.php:80
+#: view/settings/mst_settings.php:103
+msgid "Sender name via list name"
+msgstr ""
+
+#: view/list/tab6.php:75
+msgid "From name"
+msgstr ""
+
+#: view/list/tab6.php:91
+msgid "Reply-To header"
+msgstr ""
+
+#: view/list/tab6.php:95
+msgid "No explicit Reply-To header"
+msgstr ""
+
+#: view/list/tab6.php:104
+msgid "No dedicated bounces address"
+msgstr ""
+
+#: view/list/tab6.php:105
+msgid ""
+"Determines where automatic replies (e.g. out-of-office replies and delivery "
+"status notifications) should go to. Without a dedicated bounces address "
+"those emails go back to the list where they are not forwarded."
+msgstr ""
+
+#: view/list/tab6.php:110
+msgid "Dedicated bounces address"
+msgstr ""
+
+#: view/list/tab6.php:113
+msgid "Bounces destination"
+msgstr ""
+
+#: view/list/tab6.php:120
+msgid "Bounces email"
+msgstr ""
+
+#: view/list/tab6.php:125
+msgid "Max. send attempts"
+msgstr ""
+
+#: view/list/tab6.php:127
+msgid "Send reports"
+msgstr ""
+
+#: view/list/tab6.php:129
+msgid "Do not save send report"
+msgstr ""
+
+#: view/list/tab6.php:130
+msgid "Save send reports for 7 days"
+msgstr ""
+
+#: view/list/tab6.php:131
+msgid "Save send reports for 30 days"
+msgstr ""
+
+#: view/list/tab7.php:8
+msgid "Allow subscription"
+msgstr ""
+
+#: view/list/tab7.php:8
+msgid ""
+"Determines whether it is possible for a user to (self-)subscribe to a "
+"mailing list through a subscribe form. If inactive users can only be added "
+"by administrators using WP Mailster's mailing list recipient management."
+msgstr ""
+
+#: view/list/tab7.php:9
+msgid "Public subscription"
+msgstr ""
+
+#: view/list/tab7.php:9
+msgid ""
+"When active, unregistered users can also subscribe to the mailing list. "
+"Prerequisite: subscription is allowed."
+msgstr ""
+
+#: view/list/tab7.php:11 view/list/tab7.php:13
+msgid "Use Double Opt-In subscribe"
+msgstr ""
+
+#: view/list/tab7.php:11 view/list/tab7.php:13
+msgid ""
+"The Double Opt-In mode requires the confirmation of the subscription (by "
+"clicking a link in an email). This ensures that no person can subscribe "
+"someone else out of malice or error."
+msgstr ""
+
+#: view/list/tab7.php:15
+msgid "Send welcome message on subscribe"
+msgstr ""
+
+#: view/list/tab7.php:15
+msgid ""
+"Subscriber get a welcome message when they subscribe - not when subscribers "
+"are added by an administrator"
+msgstr ""
+
+#: view/list/tab7.php:16
+msgid "Send welcome message when added in backend"
+msgstr ""
+
+#: view/list/tab7.php:16
+msgid ""
+"When an administrator adds subscribers in the backend they also receive a "
+"welcome message"
+msgstr ""
+
+#: view/list/tab7.php:20
+msgid "Allow unsubscription"
+msgstr ""
+
+#: view/list/tab7.php:20
+msgid ""
+"Determines whether it is possible for a user to (self-)unsubscribe from a "
+"mailing list through an unsubscribe form. If inactive users can only be "
+"removed by administrators using WP Mailster's mailing list recipient "
+"management."
+msgstr ""
+
+#: view/list/tab7.php:22 view/list/tab7.php:24
+msgid "Use Double Opt-In unsubscribe"
+msgstr ""
+
+#: view/list/tab7.php:22 view/list/tab7.php:24
+msgid ""
+"The Double Opt-In mode requires the confirmation of the unsubscription (by "
+"clicking a link in an email). This ensures that no person can unsubscribe "
+"someone else out of malice or error."
+msgstr ""
+
+#: view/list/tab7.php:26
+msgid "Send goodbye message on unsubscribe"
+msgstr ""
+
+#: view/list/tab7.php:26
+msgid ""
+"Unsubscribers get a goodbye message when they unsubscribe - not when "
+"subscribers are removed by an administrator"
+msgstr ""
+
+#: view/list/tab7.php:27
+msgid "Send goodbye message when removed in backend"
+msgstr ""
+
+#: view/list/tab7.php:27
+msgid ""
+"When an administrator removes subscribers through the backend, the can get a "
+"goodbye message"
+msgstr ""
+
+#: view/list/tab7.php:32 view/list/tab7.php:34
+msgid "Allow digests"
+msgstr ""
+
+#: view/list/tab7.php:32 view/list/tab7.php:34
+msgid ""
+"When activated, subscriber can decide whether they want to receive the "
+"messages in digests (daily/weekly/monthly)"
+msgstr ""
+
+#: view/list/tab8.php:10 view/list/tab8.php:12
+msgid "Disable email archiving"
+msgstr ""
+
+#: view/list/tab8.php:10 view/list/tab8.php:12
+msgid ""
+"Email archiving disabled means that the content (body and attachments) of "
+"the emails are deleted after the email was forwarded to the mailing list. "
+"The subject will still be visible in the email archive."
+msgstr ""
+
+#: view/list/tab8.php:16
+msgid "Keep emails indefinitely"
+msgstr ""
+
+#: view/list/tab8.php:17
+msgid "Keep emails for one day"
+msgstr ""
+
+#: view/list/tab8.php:18 view/list/tab8.php:19 view/list/tab8.php:20
+#: view/list/tab8.php:21 view/list/tab8.php:22 view/list/tab8.php:23
+#: view/list/tab8.php:24 view/list/tab8.php:25 view/list/tab8.php:26
+#, php-format
+msgid "Keep emails for %d days"
+msgstr ""
+
+#: view/list/tab8.php:28 view/list/tab8.php:38
+msgid "Archive Retention"
+msgstr ""
+
+#: view/list/tab8.php:33 view/list/tab8.php:38
+msgid ""
+"Keep emails in archive forever or delete them after the defined number of "
+"days"
+msgstr ""
+
+#: view/list/tab9.php:10
+msgid "Notify senders of not forwarded emails"
+msgstr ""
+
+#: view/list/tab9.php:10
+msgid ""
+"If an email is not forwarded (e.g. because the email address is not allowed "
+"to send or the email is filtered because of its content) the sender can be "
+"notified"
+msgstr ""
+
+#: view/list/tab9.php:14
+msgid "Custom Notifications"
+msgstr ""
+
+#: view/list/tab9.php:27
+msgid "When?"
+msgstr ""
+
+#: view/list/tab9.php:28
+msgid "Notify who?"
+msgstr ""
+
+#: view/list/tab9.php:67
+msgid "Add Notification"
+msgstr ""
+
+#: view/list/tab_moderate.php:16
+msgid "Moderation Mode"
+msgstr ""
+
+#: view/list/tab_moderate.php:22
+msgid "No moderation"
+msgstr ""
+
+#: view/list/tab_moderate.php:25
+msgid ""
+"Per default all messages get forwarded to the list without prior approval of "
+"the message content"
+msgstr ""
+
+#: view/list/tab_moderate.php:29
+msgid "All messages"
+msgstr ""
+
+#: view/list/tab_moderate.php:32
+msgid "All messages need to be approved before they are forwarded to the list"
+msgstr ""
+
+#: view/list/tab_moderate.php:37 view/list/tab_moderate.php:64
+msgid "Messages from members of the group"
+msgstr ""
+
+#: view/list/tab_moderate.php:40
+msgid ""
+"Messages coming from members of the given group need to be approved before "
+"they are forwarded to the list"
+msgstr ""
+
+#: view/list/tab_moderate.php:60
+msgid "Auto-Approve (Whitelist)"
+msgstr ""
+
+#: view/list/tab_moderate.php:63
+msgid "Messages from recipients"
+msgstr ""
+
+#: view/list/tab_moderate.php:83
+msgid "Notify sender about moderation"
+msgstr ""
+
+#: view/list/tab_moderate.php:84
+msgid "Notify sender about moderator's approval"
+msgstr ""
+
+#: view/list/tab_moderate.php:85
+msgid "Notify sender about moderator's rejection"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:48
+#, php-format
+msgid "Removed %d queue entries"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:58
+#, php-format
+msgid ""
+"Error status reset. Continue mail sending to remaining %d recipients in "
+"queue."
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:73
+msgid "Email Details"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:95 view/mail/mst_emaildetails.php:107
+msgid "Reset send errors, continue sending"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:100
+msgid "Remove remaining queue entries"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:135
+msgid "Forward completed"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:141
+msgid "Moderation Status"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:144
+msgid "Approved"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:146
+msgid "Rejected"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:148
+msgid "In moderation"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:158
+msgid "Size"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:169
+msgid "Forward errors"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:180
+msgid "Mail Queue Entries"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:185
+msgid "Original Header"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:188
+msgid "TO"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:197
+msgid "CC"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:245
+msgid "Body"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:249 view/mail/mst_emaildetails.php:254
+msgid "Send report"
+msgstr ""
+
+#: view/mail/mst_emaildetails.php:252
+msgid "No send report stored for this email"
+msgstr ""
+
+#: view/mail/mst_resend.php:28
+msgid "Emails to resend"
+msgstr ""
+
+#: view/mail/mst_resend.php:29
+msgid "Choose target mailing lists"
+msgstr ""
+
+#: view/mail/mst_resend.php:64
+msgid "Resend emails to recipients of the selected mailing lists"
+msgstr ""
+
+#: view/servers/mst_servers_add.php:16
+msgid "New Mail Server"
+msgstr ""
+
+#: view/servers/mst_servers_add.php:17
+msgid "Add Mail Server"
+msgstr ""
+
+#: view/servers/mst_servers_add.php:90
+msgid "Edit Mail Server"
+msgstr ""
+
+#: view/servers/mst_servers_add.php:91
+msgid "Update Mail Server"
+msgstr ""
+
+#: view/servers/mst_servers_add.php:110
+msgid "Inbox Server"
+msgstr ""
+
+#: view/servers/mst_servers_add.php:110
+msgid "SMTP Server"
+msgstr ""
+
+#: view/servers/mst_servers_add.php:168
+msgid "Sever used for the following mailing lists"
+msgstr ""
+
+#: view/servers/mst_servers_add.php:171
+msgid "Number"
+msgstr ""
+
+#: view/servers/mst_servers_add.php:172 view/users/mst_users_add.php:164
+msgid "List Name"
+msgstr ""
+
+#: view/servers/mst_servers_add.php:193
+msgid "Not used in any lists."
+msgstr ""
+
+#: view/settings/mst_settings.php:14
+msgid "WP Mailster Settings"
+msgstr ""
+
+#: view/settings/mst_settings.php:22
+msgid "Refresh Information"
+msgstr ""
+
+#: view/settings/mst_settings.php:22
+msgid "Cancel"
+msgstr ""
+
+#: view/settings/mst_settings.php:23
+msgid ""
+"The license key that came with your purchase of a pro version of WP Mailster."
+msgstr ""
+
+#: view/settings/mst_settings.php:30
+msgid ""
+"Allow this plugin to send data to the plugin author to validate my license "
+"key"
+msgstr ""
+
+#: view/settings/mst_settings.php:34
+msgid ""
+"The cronjob key is used for dedicated cronjobs. You can choose this key "
+"yourself. Please use only alphanumerical (A-Z letters and numbers) "
+"characters for the cronjob key. No special characters or spaces allowed. The "
+"cronjob has to be provided with the parameter \"key\" in the cronjob URL (e."
+"g. www.example.com?wpmst_cronjob=execute&task=all&key=pass123)."
+msgstr ""
+
+#: view/settings/mst_settings.php:37
+msgid "Cron Job Key"
+msgstr ""
+
+#: view/settings/mst_settings.php:44
+msgid "You can use this url for your cron jobs:"
+msgstr ""
+
+#: view/settings/mst_settings.php:56
+msgid "Trigger source"
+msgstr ""
+
+#: view/settings/mst_settings.php:58
+msgid ""
+"All page loads (front- and backend, recommended when not using a cron job)"
+msgstr ""
+
+#: view/settings/mst_settings.php:59
+msgid "Backend activity only (recommended for cron jobs in the free edition)"
+msgstr ""
+
+#: view/settings/mst_settings.php:60
+msgid ""
+"Dedicated cronjobs only (WP Mailster Society & Enterprise only, recommended "
+"for cron jobs)"
+msgstr ""
+
+#: view/settings/mst_settings.php:65
+msgid ""
+"The trigger source determines which page loads of the website are used to "
+"retrieve and send emails in the background. WP Mailster needs to have "
+"regular site activity (page loads), otherwise the email delivery is delayed "
+"or never done."
+msgstr ""
+
+#: view/settings/mst_settings.php:69
+msgid "Add subject prefix to replies"
+msgstr ""
+
+#: view/settings/mst_settings.php:69
+msgid ""
+"Add text defined below in front of the subject in mails that are replies (to "
+"a previous post)"
+msgstr ""
+
+#: view/settings/mst_settings.php:70
+msgid "Reply Subject Prefix"
+msgstr ""
+
+#: view/settings/mst_settings.php:70
+msgid "Re:"
+msgstr ""
+
+#: view/settings/mst_settings.php:70
+msgid "Text to put in front of the subject of reply mails."
+msgstr ""
+
+#: view/settings/mst_settings.php:71
+msgid "Undo Line Wrapping"
+msgstr ""
+
+#: view/settings/mst_settings.php:71
+msgid ""
+"Some email servers automatically do a line wrapping after a fixed number of "
+"characters. This option removes those line breaks."
+msgstr ""
+
+#: view/settings/mst_settings.php:72
+msgid "Date/Time format in WP Mailster"
+msgstr ""
+
+#: view/settings/mst_settings.php:72 view/settings/mst_settings.php:73
+msgid ""
+"Format analog to PHP date time format, see http://php.net/manual/en/function."
+"date.php"
+msgstr ""
+
+#: view/settings/mst_settings.php:73
+msgid "Date-only format in WP Mailster"
+msgstr ""
+
+#: view/settings/mst_settings.php:87 view/settings/mst_settings.php:108
+msgid "The emails forwarded from Mailster use this name in the From field."
+msgstr ""
+
+#: view/settings/mst_settings.php:115
+msgid "Blocked Email Addresses"
+msgstr ""
+
+#: view/settings/mst_settings.php:115
+msgid ""
+"Emails coming from one of the configured email addresses will not be "
+"forwarded. Here you can configure both complete email addresses as so called "
+"wildcard addresses. Wildcard means, that only the local part (the name "
+"before the @-character) is checked for, not the domain of the email address. "
+"An example is the wildcard address john@* - that means that all email "
+"addresses that start with john@ will not be forwarded."
+msgstr ""
+
+#: view/settings/mst_settings.php:122 view/settings/mst_settings.php:181
+#: view/settings/mst_settings.php:230 view/settings/mst_settings.php:256
+#, php-format
+msgid "Feature \"%s\" available in %s"
+msgstr ""
+
+#: view/settings/mst_settings.php:125
+msgid "Words to filter"
+msgstr ""
+
+#: view/settings/mst_settings.php:125
+msgid ""
+"When mail filtering is activated in the mailing list, mails containing on of "
+"these words in the subject or body are not forwarded. Separate the key words "
+"with comma."
+msgstr ""
+
+#: view/settings/mst_settings.php:126
+msgid "Keep blocked emails for #days"
+msgstr ""
+
+#: view/settings/mst_settings.php:139 view/settings/mst_settings.php:154
+msgid "After the time period the emails are deleted to keep a smaller database"
+msgstr ""
+
+#: view/settings/mst_settings.php:141
+msgid "Keep bounced emails for #days"
+msgstr ""
+
+#: view/settings/mst_settings.php:160
+msgid "DMARC: adjust sender settings"
+msgstr ""
+
+#: view/settings/mst_settings.php:164
+msgid ""
+"When an email comes from one of the given providers enforcing policy=reject, "
+"then automatically adjust sender settings to improve deliverability"
+msgstr ""
+
+#: view/settings/mst_settings.php:169
+msgid "DMARC providers"
+msgstr ""
+
+#: view/settings/mst_settings.php:174
+msgid ""
+"Email providers that have a DMARC policy with the setting \"REJECT\". Here "
+"you can configure both complete domain names as well as so called wildcard "
+"domains. Wildcard means, that only the host name part (the name before the "
+"period character) is checked for, not the top-level domain of the email "
+"address. An example is the wildcard domain example.* - that means that all "
+"email addresses coming from a domain with \"example\" as the host name are "
+"matched, examples: \"example.com\", \"example.net\" and \"example.co.uk\""
+msgstr ""
+
+#: view/settings/mst_settings.php:181
+msgid "Registration Plugin"
+msgstr ""
+
+#: view/settings/mst_settings.php:188
+msgid "Add user to mailing list(s) on registration"
+msgstr ""
+
+#: view/settings/mst_settings.php:193
+msgid ""
+"When user register at your site, they can be automatically added as "
+"subscribers to one or multiple of the mailing lists"
+msgstr ""
+
+#: view/settings/mst_settings.php:206
+msgid "Add user to group(s) on registration"
+msgstr ""
+
+#: view/settings/mst_settings.php:211
+msgid ""
+"When user register at your site, they can be automatically added to one or "
+"multiple of the WP user groups"
+msgstr ""
+
+#: view/settings/mst_settings.php:233
+msgid "reCAPTCHA public key"
+msgstr ""
+
+#: view/settings/mst_settings.php:233 view/settings/mst_settings.php:234
+msgid ""
+"To use the reCAPTCHA (which is provided externally through Google) you have "
+"to have a private and public API key for your domain. reCAPTCHA API keys can "
+"be retrieved for free from https://www.google.com/recaptcha/admin/create"
+msgstr ""
+
+#: view/settings/mst_settings.php:234
+msgid "reCAPTCHA private key"
+msgstr ""
+
+#: view/settings/mst_settings.php:235
+msgid "reCAPTCHA Theme"
+msgstr ""
+
+#: view/settings/mst_settings.php:237
+msgid "Light"
+msgstr ""
+
+#: view/settings/mst_settings.php:238
+msgid "Dark"
+msgstr ""
+
+#: view/settings/mst_settings.php:243
+msgid "Change the design of the captcha to fit your site appearance"
+msgstr ""
+
+#: view/settings/mst_settings.php:256
+msgid "Send Throttling"
+msgstr ""
+
+#: view/settings/mst_settings.php:258
+msgid "Send limit (per hour)"
+msgstr ""
+
+#: view/settings/mst_settings.php:258
+msgid ""
+"Max. number of emails to send per hour. 0 and empty field means unthrottled/"
+"unlimited sending."
+msgstr ""
+
+#: view/settings/mst_settings.php:259
+msgid "Send limit (per minute)"
+msgstr ""
+
+#: view/settings/mst_settings.php:259
+msgid ""
+"Max. number of emails to send per minute. 0 and empty field means "
+"unthrottled/unlimited sending."
+msgstr ""
+
+#: view/settings/mst_settings.php:260
+msgid "Wait between the sending of two emails"
+msgstr ""
+
+#: view/settings/mst_settings.php:262
+msgid "0 seconds - Do not wait"
+msgstr ""
+
+#: view/settings/mst_settings.php:263
+msgid "0.1 seconds"
+msgstr ""
+
+#: view/settings/mst_settings.php:264
+msgid "0.5 seconds"
+msgstr ""
+
+#: view/settings/mst_settings.php:265 view/settings/mst_settings.php:266
+#: view/settings/mst_settings.php:267 view/settings/mst_settings.php:268
+#: view/settings/mst_settings.php:269 view/settings/mst_settings.php:270
+#, php-format
+msgid "%d seconds"
+msgstr ""
+
+#: view/settings/mst_settings.php:275
+msgid ""
+"Wait between the sending of two emails at least the defined time period (in "
+"seconds). This can throttle the sending process and is there for you, in "
+"case your webhoster has send limit requirements. Enter 0 to not throttle the "
+"sending (this is also the default). ATTENTION! This feature ONLY works in "
+"the throttling-supporting product editions!"
+msgstr ""
+
+#: view/settings/mst_settings.php:283
+msgid "Minimal time between email retrievals"
+msgstr ""
+
+#: view/settings/mst_settings.php:288
+msgid "Try to retrieve emails every x seconds"
+msgstr ""
+
+#: view/settings/mst_settings.php:293
+msgid "Minimal time between email sending"
+msgstr ""
+
+#: view/settings/mst_settings.php:293
+msgid "Continue to forward/send enqueued mails every x seconds"
+msgstr ""
+
+#: view/settings/mst_settings.php:294
+msgid "Minimal time between maintenance runs"
+msgstr ""
+
+#: view/settings/mst_settings.php:294
+msgid ""
+"Execute system maintenance every x seconds (recommended: at least 3600 "
+"seconds = 1 hour, not more than 86400 seconds = 24 hours)"
+msgstr ""
+
+#: view/settings/mst_settings.php:295
+msgid "Max. execution time"
+msgstr ""
+
+#: view/settings/mst_settings.php:295
+msgid ""
+"Max. time (seconds) to take for retrieving/sending of emails. Recommended: "
+"not more than half of the PHP Max Execution Time setting"
+msgstr ""
+
+#: view/settings/mst_settings.php:296
+msgid "Minimal operation duration"
+msgstr ""
+
+#: view/settings/mst_settings.php:296
+msgid ""
+"Time (seconds) that is needed to complete an action like connect to a "
+"mailbox, adjust it to server performance -> increase it when you experience "
+"time outs, has to be significantly lower than Max. Execution Time"
+msgstr ""
+
+#: view/settings/mst_settings.php:302
+msgid ""
+"Time in seconds for a mailbox connection to be established. Otherwise a "
+"timeout occurs."
+msgstr ""
+
+#: view/settings/mst_settings.php:308
+msgid "Alternative text variables"
+msgstr ""
+
+#: view/settings/mst_settings.php:308
+msgid ""
+"You can use alternative text variables. This is only recommended for the "
+"rare case when the text variables are incompatible with e.g. your mailing "
+"server"
+msgstr ""
+
+#: view/settings/mst_settings.php:309
+msgid "Include mail body in bounced/blocked mail notifications"
+msgstr ""
+
+#: view/settings/mst_settings.php:309
+msgid ""
+"The text of the bounced/blocked email can be included in the notification "
+"messages"
+msgstr ""
+
+#: view/settings/mst_settings.php:310
+msgid "Include attachments in moderation requests"
+msgstr ""
+
+#: view/settings/mst_settings.php:310
+msgid ""
+"Moderators get sent all attachments in the emails asking them to make a "
+"moderation decision. That way they can have a look at the attachment "
+"contents as well."
+msgstr ""
+
+#: view/settings/mst_settings.php:311
+msgid "Message format to use within digests"
+msgstr ""
+
+#: view/settings/mst_settings.php:313
+msgid "Plain"
+msgstr ""
+
+#: view/settings/mst_settings.php:314
+msgid "HTML"
+msgstr ""
+
+#: view/settings/mst_settings.php:319
+msgid ""
+"Either the original HTML is used or a conversion into plain text can be done "
+"to get a more uniform looking digest"
+msgstr ""
+
+#: view/settings/mst_settings.php:323
+msgid "Disabled"
+msgstr ""
+
+#: view/settings/mst_settings.php:324
+msgid "Errors only"
+msgstr ""
+
+#: view/settings/mst_settings.php:325
+msgid "Normal"
+msgstr ""
+
+#: view/settings/mst_settings.php:326
+msgid "Max. Logging (Debug)"
+msgstr ""
+
+#: view/settings/mst_settings.php:331
+msgid ""
+"The logging level determines which kind of events (e.g. an error while "
+"retrieving mails) should be written to WP Mailster's log file"
+msgstr ""
+
+#: view/settings/mst_settings.php:338
+msgid ""
+"Deactivates checks whether log dir is existing and log file is writable. Use "
+"with caution! This can not work e.g. if your log path is configured wrong."
+msgstr ""
+
+#: view/settings/mst_settings.php:339
+msgid "Log file warning size limit (MB)"
+msgstr ""
+
+#: view/settings/mst_settings.php:339
+msgid ""
+"When this size of the log file (in megabyte) is exceeded a warning message "
+"is produced"
+msgstr ""
+
+#: view/settings/mst_settings.php:341
+msgid "Delete data when uninstalling the plugin"
+msgstr ""
+
+#: view/settings/mst_settings.php:344
+msgid ""
+"Checking this option will remove all WP Mailster related data, including "
+"your lists, groups and WP Mailster users."
+msgstr ""
+
+#: view/stats/mst_intro.php:51
+msgid "Missing"
+msgstr ""
+
+#: view/stats/mst_intro.php:52
+msgid "Open WPMailster's settings to add your license key"
+msgstr ""
+
+#: view/stats/mst_intro.php:71
+msgid "WP Mailster Logo"
+msgstr ""
+
+#: view/stats/mst_intro.php:74
+msgid "Show Documentation"
+msgstr ""
+
+#: view/stats/mst_intro.php:79
+#, php-format
+msgid "Upgrade to %s"
+msgstr ""
+
+#: view/stats/mst_intro.php:83
+msgid "General Stats"
+msgstr ""
+
+#: view/stats/mst_intro.php:89
+msgid "Inactive Lists"
+msgstr ""
+
+#: view/stats/mst_intro.php:92
+msgid "Mails"
+msgstr ""
+
+#: view/stats/mst_intro.php:96
+msgid "Offline mails"
+msgstr ""
+
+#: view/stats/mst_intro.php:101
+msgid "Queued mails"
+msgstr ""
+
+#: view/stats/mst_intro.php:123
+msgid "Plugin Activity"
+msgstr ""
+
+#: view/stats/mst_intro.php:123 wp-mailster.php:1800 wp-mailster.php:1802
+msgid "Reset"
+msgstr ""
+
+#: view/stats/mst_intro.php:125
+msgid "Next check"
+msgstr ""
+
+#: view/stats/mst_intro.php:126
+msgid "Next sending"
+msgstr ""
+
+#: view/stats/mst_intro.php:127
+msgid "Next cleanup"
+msgstr ""
+
+#: view/stats/mst_intro.php:150
+msgid "Edit mailing list"
+msgstr ""
+
+#: view/stats/mst_intro.php:151 wp-mailster.php:357
+msgid "Manage Recipients"
+msgstr ""
+
+#: view/stats/mst_intro.php:152
+msgid "View email archive"
+msgstr ""
+
+#: view/stats/mst_intro.php:159
+msgid "Currently active, click to deactivate"
+msgstr ""
+
+#: view/stats/mst_intro.php:159
+msgid "Curretnly inactive, click to activate"
+msgstr ""
+
+#: view/stats/mst_intro.php:169
+msgid "Recipients"
+msgstr ""
+
+#: view/stats/mst_intro.php:171
+msgid "Forwarded mails"
+msgstr ""
+
+#: view/stats/mst_intro.php:171
+msgid "unsent"
+msgstr ""
+
+#: view/stats/mst_intro.php:171
+msgid "send errors"
+msgstr ""
+
+#: view/stats/mst_intro.php:174
+msgid "Not forwarded mails"
+msgstr ""
+
+#: view/stats/mst_intro.php:174
+msgid "blocked"
+msgstr ""
+
+#: view/stats/mst_intro.php:174
+msgid "filtered"
+msgstr ""
+
+#: view/stats/mst_intro.php:174
+msgid "bounced"
+msgstr ""
+
+#: view/stats/mst_intro.php:180 wp-mailster.php:429 wp-mailster.php:745
+#: wp-mailster.php:807 wp-mailster.php:871
+msgid "Add New"
+msgstr ""
+
+#: view/stats/mst_intro.php:190
+msgid "Available Shortcodes:"
+msgstr ""
+
+#: view/stats/mst_intro.php:195
+msgid "Shows a list with all the available mailing lists"
+msgstr ""
+
+#: view/stats/mst_intro.php:196
+msgid ""
+"Shows all the emails of the specified mailing list. Replace \"1\" with the "
+"id of the list you want to show."
+msgstr ""
+
+#: view/stats/mst_intro.php:201
+msgid ""
+"Shows digest and subscription/unsubscription options to logged in users."
+msgstr ""
+
+#: view/stats/mst_intro.php:205
+msgid "Import Users from CSV"
+msgstr ""
+
+#: view/stats/mst_intro.php:206
+msgid "Export Users to CSV"
+msgstr ""
+
+#: view/stats/mst_intro.php:213
+msgid "Show System Diagnosis"
+msgstr ""
+
+#: view/users/mst_users_add.php:23
+msgid "New Mailster User"
+msgstr ""
+
+#: view/users/mst_users_add.php:24
+msgid "Add Mailster User"
+msgstr ""
+
+#: view/users/mst_users_add.php:82
+msgid "User successfully updated"
+msgstr ""
+
+#: view/users/mst_users_add.php:84
+msgid "User successfully created"
+msgstr ""
+
+#: view/users/mst_users_add.php:86
+msgid "User could not be saved"
+msgstr ""
+
+#: view/users/mst_users_add.php:92
+msgid "Edit Mailster User"
+msgstr ""
+
+#: view/users/mst_users_add.php:93
+msgid "Update Mailster User"
+msgstr ""
+
+#: view/users/mst_users_add.php:123
+msgid "Edit WordPress User"
+msgstr ""
+
+#: view/users/mst_users_add.php:131
+msgid "User member of Groups"
+msgstr ""
+
+#: view/users/mst_users_add.php:161
+msgid "User member of Lists"
+msgstr ""
+
+#: view/users/mst_users_add.php:165
+msgid "List Member"
+msgstr ""
+
+#: widget/subscribe-widget.php:21
+msgid "WP Mailster Subscribe/Unsubscribe"
+msgstr ""
+
+#: widget/subscribe-widget.php:22
+msgid ""
+"Display a form for subscribing to (or unsubscribing from) WP Mailster "
+"mailing lists"
+msgstr ""
+
+#: widget/subscribe-widget.php:83
+msgid "Digest Choice"
+msgstr ""
+
+#: widget/subscribe-widget.php:277
+msgid "WP Mailster Mailing List Subscription"
+msgstr ""
+
+#: widget/subscribe-widget.php:281
+msgid "Title:"
+msgstr ""
+
+#: widget/subscribe-widget.php:294
+msgid "Form choice"
+msgstr ""
+
+#: widget/subscribe-widget.php:318
+msgid "List choice"
+msgstr ""
+
+#: widget/subscribe-widget.php:348
+msgid "Add to group on subscription"
+msgstr ""
+
+#: widget/subscribe-widget.php:372
+msgid "Captcha protection active"
+msgstr ""
+
+#: widget/subscribe-widget.php:381
+msgid "Recaptcha"
+msgstr ""
+
+#: widget/subscribe-widget.php:385
+msgid "Math captcha"
+msgstr ""
+
+#: widget/subscribe-widget.php:402
+msgid "Design Choice"
+msgstr ""
+
+#: widget/subscribe-widget.php:407
+msgid "No design"
+msgstr ""
+
+#: widget/subscribe-widget.php:411
+msgid "Black"
+msgstr ""
+
+#: widget/subscribe-widget.php:415
+msgid "Blue"
+msgstr ""
+
+#: widget/subscribe-widget.php:419
+msgid "Red"
+msgstr ""
+
+#: widget/subscribe-widget.php:423
+msgid "White"
+msgstr ""
+
+#: widget/subscribe-widget.php:436
+msgid "Prefix class"
+msgstr ""
+
+#: widget/subscribe-widget.php:445 widget/subscribe-widget.php:626
+#: widget/subscribe-widget.php:744
+msgid "Newsletter"
+msgstr ""
+
+#: widget/subscribe-widget.php:449 widget/subscribe-widget.php:630
+msgid "Mailing list label"
+msgstr ""
+
+#: widget/subscribe-widget.php:462
+msgid "Hide list"
+msgstr ""
+
+#: widget/subscribe-widget.php:484 widget/subscribe-widget.php:608
+msgid "Smart Hide"
+msgstr ""
+
+#: widget/subscribe-widget.php:506
+msgid "Hide Subscriber Name"
+msgstr ""
+
+#: widget/subscribe-widget.php:528
+msgid "Name field label"
+msgstr ""
+
+#: widget/subscribe-widget.php:541 widget/subscribe-widget.php:643
+msgid "Email field label"
+msgstr ""
+
+#: widget/subscribe-widget.php:554 widget/subscribe-widget.php:656
+msgid "Subscribe field label"
+msgstr ""
+
+#: widget/subscribe-widget.php:563 widget/subscribe-widget.php:752
+msgid "Thank you for subscribing"
+msgstr ""
+
+#: widget/subscribe-widget.php:567
+msgid "Subscription OK text"
+msgstr ""
+
+#: widget/subscribe-widget.php:576 widget/subscribe-widget.php:753
+msgid ""
+"Thank you for your subscription. An email was sent to confirm your "
+"subscription. Please follow the instructions in the email."
+msgstr ""
+
+#: widget/subscribe-widget.php:580
+msgid "Subscription confirmation sent text"
+msgstr ""
+
+#: widget/subscribe-widget.php:589 widget/subscribe-widget.php:754
+#: widget/subscribe-widget.php:755
+msgid "Subscription error occurred. Please try again."
+msgstr ""
+
+#: widget/subscribe-widget.php:593
+msgid "Subscription error text"
+msgstr ""
+
+#: widget/subscribe-widget.php:665 widget/subscribe-widget.php:760
+msgid ""
+"Sorry that you decided to unsubscribe. Hope to see you again in the future!"
+msgstr ""
+
+#: widget/subscribe-widget.php:669
+msgid "Unsubscription OK text"
+msgstr ""
+
+#: widget/subscribe-widget.php:678 widget/subscribe-widget.php:761
+msgid ""
+"An email was sent to you to confirm that you unsubscribed. Please follow the "
+"instructions in the email."
+msgstr ""
+
+#: widget/subscribe-widget.php:682
+msgid "Unsubscription confirmation sent text"
+msgstr ""
+
+#: widget/subscribe-widget.php:691 widget/subscribe-widget.php:762
+msgid "Unsubscription error occurred. Please try again."
+msgstr ""
+
+#: widget/subscribe-widget.php:695
+msgid "Unsubscription error text"
+msgstr ""
+
+#: wp-mailster.php:269
+msgid ""
+"Non valid key. You do not have access to premium automatic updates."
+"<br><br>If you update the plugin, it will become a free version."
+msgstr ""
+
+#: wp-mailster.php:270
+msgid ""
+"Please allow the plugin to send data to the author in the respective option. "
+"Otherwise the license key can not be validated."
+msgstr ""
+
+#: wp-mailster.php:271
+msgid "Checking license key..."
+msgstr ""
+
+#: wp-mailster.php:272
+msgid "License key correct."
+msgstr ""
+
+#: wp-mailster.php:274
+msgid "License Status"
+msgstr ""
+
+#: wp-mailster.php:277
+msgid "expires in {days} days on {date}"
+msgstr ""
+
+#: wp-mailster.php:278
+msgid "expired on {date}"
+msgstr ""
+
+#: wp-mailster.php:348
+msgid "WP Mailster"
+msgstr ""
+
+#: wp-mailster.php:358
+msgid "Add Recipient"
+msgstr ""
+
+#: wp-mailster.php:370
+msgid "Add Server"
+msgstr ""
+
+#: wp-mailster.php:376
+msgid "Add User"
+msgstr ""
+
+#: wp-mailster.php:391
+msgid "Settings"
+msgstr ""
+
+#: wp-mailster.php:544 wp-mailster.php:547
+msgid "Confirmation Required"
+msgstr ""
+
+#: wp-mailster.php:545
+msgid "Are you sure you want to delete the selected queue entries?"
+msgstr ""
+
+#: wp-mailster.php:548
+msgid "Are you sure you want to delete ALL queue entries?"
+msgstr ""
+
+#: wp-mailster.php:646
+#, php-format
+msgid "Sent %d emails to %d mailing lists"
+msgstr ""
+
+#: wp-mailster.php:1670
+msgid "Please provide a valid email address"
+msgstr ""
+
+#: wp-mailster.php:1794 wp-mailster.php:1819
+msgid "Reset timer called"
+msgstr ""
+
+#: wp-mailster.php:1800
+msgid "Ok"
+msgstr ""
+
+#: wp-mailster.php:1802
+msgid "Not Ok"
+msgstr ""
+
+#: wp-mailster.php:1805
+msgid "Unknown task"
+msgstr ""
+
+#: wp-mailster.php:1902
+msgid "Deleted Log file"
+msgstr ""
+
+#: wp-mailster.php:1904
+msgid "Failed to delete Log file"
+msgstr ""
+
+#: wp-mailster.php:2005
+msgid ""
+"Your WP Mailster version will become the FREE edition the next time you "
+"update it. Go to <a href=\"admin.php?page=wpmst_settings\">WPMailster "
+"settings</a> to add your license key"
+msgstr ""
+
+#: wp-mailster.php:2351
+msgid "Successfully unsubscribed"
+msgstr ""
+
+#: wp-mailster.php:2354 wp-mailster.php:2367
+msgid "Unsubscription failed"
+msgstr ""
+
+#: wp-mailster.php:2360
+msgid ""
+"An email was sent to you in order to confirm that you wanted to unsubscribe. "
+"Please follow the instructions in the email."
+msgstr ""
+
+#: wp-mailster.php:2363
+msgid "Email not subscribed"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Mailster Free"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.wpmailster.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The Mailing List Plugin For WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "brandtoss"
+msgstr ""

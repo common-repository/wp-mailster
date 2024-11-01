@@ -1,0 +1,489 @@
+/**
+ * @copyright (C) 2016 - 2024 Holger Brandt IT Solutions
+ * @license GNU/GPL, see license.txt
+ * WP Mailster is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License 2
+ * as published by the Free Software Foundation.
+ * 
+ * WP Mailster is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with WP Mailster; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+ * or see http://www.gnu.org/licenses/.
+ */
+
+.mst_listing .form-table th, .mst_listing .form-table td{ padding:0px;}
+.mst_form_container {float:left;}
+.mst_form_container input[type="text"]{ width:100%;}
+.mst_form_container textarea{	width:100%;	height:150px;}
+.mst_form_container .mst_submit_align{margin-top:9px;}
+.mst_mailing_content .form-table th{width:230px;}
+.mst_listing{margin-bottom:20px;}
+.mst_recipients{margin:20px 0;}
+.mst_listing .form-table th, .mst_listing .form-table td{padding:5px;}
+.mst_listing .form-table{width:80%;}
+.mst_required{color:#ff0000;}
+.mst_container h2 {margin-bottom:20px;}
+.mst_list_members h4{margin:20px 0;}
+.form-horizontal{margin-top:20px;}
+
+table.mst-general-settings tr.spacer-top{border-top:1px solid;}
+table.mst-general-settings tr.spacer-bottom{border-bottom:1px solid;}
+
+table.form-table input.invalidChar{
+	border: 1px solid red;
+}
+
+table.form-table span.invalidCharMsg{
+	color: red;
+}
+
+.ui-dialog.ui-widget-content {background-color:white; color:rgb(34, 34, 34);}
+
+table.wp-list-table.widefat thead tr th,
+table.wp-list-table.widefat tbody tr td{
+	width:auto;
+}
+
+table.wp-list-table.widefat thead tr th.column-id,
+table.wp-list-table.widefat tfoot tr th.column-id,
+table.wp-list-table.widefat tbody tr td.column-id,
+table.wp-list-table.widefat thead tr th.column-fwd_errors,
+table.wp-list-table.widefat tfoot tr th.column-fwd_errors,
+table.wp-list-table.widefat tbody tr td.column-fwd_errors,
+table.wp-list-table.widefat thead tr th.column-fwd_completed,
+table.wp-list-table.widefat tfoot tr th.column-fwd_completed,
+table.wp-list-table.widefat tbody tr td.column-fwd_completed,
+table.wp-list-table.widefat thead tr th.column-has_attachments,
+table.wp-list-table.widefat tfoot tr th.column-has_attachments,
+table.wp-list-table.widefat tbody tr td.column-has_attachments
+{
+	width: max-content;
+	white-space: nowrap;
+	padding-right: 10px;
+}
+
+.safari table.wp-list-table.widefat thead tr th.column-id,
+.safari table.wp-list-table.widefat tfoot tr th.column-id,
+.safari table.wp-list-table.widefat tbody tr td.column-id,
+.safari table.wp-list-table.widefat thead tr th.column-fwd_errors,
+.safari table.wp-list-table.widefat tfoot tr th.column-fwd_errors,
+.safari table.wp-list-table.widefat tbody tr td.column-fwd_errors,
+.safari table.wp-list-table.widefat thead tr th.column-fwd_completed,
+.safari table.wp-list-table.widefat tfoot tr th.column-fwd_completed,
+.safari table.wp-list-table.widefat tbody tr td.column-fwd_completed,
+.safari table.wp-list-table.widefat thead tr th.column-has_attachments,
+.safari table.wp-list-table.widefat tfoot tr th.column-has_attachments,
+.safari table.wp-list-table.widefat tbody tr td.column-has_attachments
+{
+	width: 30px;
+	min-width: max-content;
+	white-space: nowrap;
+	padding-right: 10px;
+}
+
+/* start tabs css */
+.ui-widget-content{
+    border:0px;
+    background:none;
+}
+.ui-widget-content table a{
+   color: #0073aa !important;
+}
+.ui-widget-header {
+    background:none;
+    border-width: 0px 0px 1px 0px;
+}
+.ui-widget-header a{
+    color:#0073aa !important;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 10px 5px !important;
+    font-size: 14px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0px!important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius:0px!important;
+}
+.ui-tabs .ui-tabs-panel {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+/* end tabs css */
+.ui-widget-content{
+    border:0px;
+    background:none;
+}
+.ui-widget-header {
+    background:none;
+    border-width: 0px 0px 1px 0px;
+}
+.ui-widget-header a{
+    color:#0073aa!important;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 10px 5px !important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0px!important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius:0px!important;
+}
+.ui-tabs .ui-tabs-panel {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid;
+    margin-top: 15px;
+}
+
+
+.ui-widget-content{
+    border:0px;
+    background:none;
+}
+.ui-widget-header {
+    background:none;
+    border-width: 0px 0px 1px 0px;
+}
+.ui-widget-header a{
+    color:#0073aa!important;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 10px 5px !important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0px!important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius:0px!important;
+}
+.ui-tabs .ui-tabs-panel {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid;
+    margin-top: 15px;
+}
+
+.paginate_button {
+    padding:0px !important;
+}
+.dataTables_filter input[type="search"] {
+    padding:0px;
+    width:60%;
+}
+
+
+
+
+/* new styles */
+.subchoices {
+    padding-left: 30px;
+    list-style: none;
+}
+
+.mst_container input.small-text {
+    width: 56px;
+}
+.suboptions {
+    margin-left: 20px;
+}
+.hTip {
+    color: #66B4FF;
+    cursor: pointer;
+}
+#inbox_settings, #outbox_settings {
+    display: none;
+}
+#inbox_settings > td, #outbox_settings > td {
+    padding: 0;
+}
+
+.ui-widget-content{
+    border:0px;
+    background:none;
+}
+.ui-widget-header {
+    background:none;
+    border-width: 0px 0px 1px 0px;
+}
+.ui-widget-header a{
+    color:#0073aa!important;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 10px 5px !important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0px!important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius:0px!important;
+}
+.ui-tabs .ui-tabs-panel {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.mst_custom_header,
+.mst_custom_footer {
+    display: none;
+}
+
+
+
+.mtrHidden{
+	display:none;
+}
+
+.mtrActivityIndicator{ 
+	background-image:url('../images/16-loader.gif');
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+a span.donotshowlink,
+a:link span.donotshowlink,
+a:visited span.donotshowlink,
+a:hover span.donotshowlink{
+  text-decoration: none !important;
+}
+
+.submitContainer{
+	text-align:right;
+	width:100%;
+	height:30px;
+}
+
+.submitContainer input{
+	width:200px;
+}
+
+input[type="submit"].submitButton{
+	min-width:100px;
+	height:30px;
+	cursor:pointer;	
+}
+
+input[type="submit"].submitButton:hover{
+	background-color:#999999;
+}
+
+input[type="button"].selListButton{	
+	min-width:100px;
+	height:30px;
+	width:fixed;
+}
+
+input[type="button"].selListButton:hover{
+	background-color:#999999;
+}
+
+.taskLinkList{
+	padding-left:12px;
+	margin-top:0px;
+}
+
+ul.taskLinkList li{
+	list-style:none;
+	margin-bottom:2px;
+}
+
+.taskLinkList img {
+	margin-right:5px;
+	margin-bottom:5px;
+	vertical-align: middle;
+}
+
+ul#infoLinkList{
+	padding-left:12px;
+	margin-top:0px;
+}
+
+ul#infoLinkList li{
+	list-style:none;
+	margin-bottom:2px;
+	padding-bottom:3px;
+	padding-top:3px;
+	height:35px;
+}
+
+ul#infoLinkList li a {
+	margin-right:5px;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	padding-top:5px;
+	vertical-align: middle;
+}
+
+#addUserForm, #addGroupForm, #importCSVForm{
+	min-width:800px;
+}
+
+#startPageTable tr td{
+	vertical-align:top;	
+}
+
+#startPageTable th{
+	background-color:#CFCFCF;
+	margin:2px;
+}
+
+#generalStats th{
+	background-color:#E3E4E3;
+	border:1px solid #BBBBBB;
+}
+
+#taskTable th{
+	background-color:#E3E4E3;
+	border:1px solid #BBBBBB;
+}
+
+
+#detailedStats th{
+	background-color:#E3E4E3;
+	border:1px solid #BBBBBB;
+}
+
+#leftCol{
+	float:left;
+}
+
+#rightCol{
+	float:right;
+}
+
+#mailsterLogo img.maisterLogo{
+	width:300px;
+	margin-right:-13px;
+}
+
+#mailsterLogo form{
+	text-align:center;
+	padding-top:10px;
+}
+
+#mailsterLogo input{
+	border:none;
+}
+
+table.notifiesTbl{
+	border:1px solid black;
+	background-color:white;
+	border-collapse:collapse;
+}
+
+.notifiesTbl tr th{
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+	background-color:#EEEEEE;
+}
+
+.notifiesTbl tr td{
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+
+tr.logEntry {
+	font-size:9pt;
+}
+
+#logTable td.logEntryWarning{
+	background-color:#FFFF00;
+	color:#000000;
+}
+#logTable td.logEntryError{
+	background-color:#FF0000;
+	color:#000000;
+}
+#logTable td.logEntryInfo{
+	background-color:#00DDDD;
+	color:#000000;
+}
+#logTable td.logEntryDebug{
+	background-color:#CCCCCC;
+	color:#000000;
+}
+#logTable tr{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#logTable tr td{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.tabsFooter{
+	width:100%;
+	text-align:center;
+	display:block;
+}
+
+#paramsadd_reply_prefix0{
+	border: 1px solid silver;
+    font-size: 10px;
+}
+
+#paramsadd_reply_prefix0-lbl{
+	display:inline;
+	float:left;
+}
+
+#paramsadd_reply_prefix1-lbl{
+	display:inline;
+	float:left;
+}
+
+div#fourth div pre{
+	padding:2px;
+}
+
+#mainLogo {
+	height: 120px;
+	margin: 20px;
+}
+.statistic {
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	margin: 20px 10px;
+	padding: 1px 20px 20px;
+}
+.statistic .lists > li {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	margin: 10px 0;
+}
+.statistic .lists .listTitle {
+	margin-bottom: 6px;
+}
+.statistic .lists .listTitle h4 {
+	margin: 0;
+}
+.statistic .activeToggler {
+	text-decoration: none;
+}
+
+.statistic.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.statistic-left {
+    float:left;
+}
+.statistic-right {
+    float:right;
+    text-align: right;
+}
+
+a span.wpmst-dashicons{
+    text-decoration: none;
+}

@@ -1,0 +1,544 @@
+== Changelog ==
+
+= 1.8.16 =
+*Release Date - October 28th, 2024*
+*   [Bug Fix] Security fix to close Cross Site Scripting (XSS) vulnerability
+
+= 1.8.15 =
+*Release Date - October 16th, 2024*
+*   [Improvement] Improve error handling and logging
+*   [Improvement] Add selected logging about queue status and actions
+*   [Improvement] WordPress 6.6 compatibility (marker)
+*   [Bug Fix] Remove no longer relevant code
+
+= 1.8.14 =
+*Release Date - May 24th, 2024*
+*   [Improvement] Automatically shorten (too) long subjects, current max length: 191 characters
+*   [Bug Fix] Fix email character display/modification issues with Baltic encoding
+*   [Bug Fix] Fix backend email archive view (and other admin list views) for Safari
+*   [Bug Fix] Fix some rare cases where email was not saved to database
+*   [Bug Fix] Fix multiple PHP warnings
+
+= 1.8.12 =
+*Release Date - February 1st, 2024*
+*   [Bug Fix] Fix reCaptcha (v2 is still used)
+*   [Bug Fix] Fix multiple PHP warnings
+*   [Bug Fix] Fix multiple PHP deprecation messages (Deprecated: Creation of dynamic property)
+
+= 1.8.11 =
+*Release Date - December 21st, 2023*
+*   [Improvement] CSV import also supports file with only emails (no name column)
+*   [Improvement] Do not create Microsoft and Google default connections because of missing OAUTH2 support
+*   [Bug Fix] Avoid error "Prohibited input U+00000081" and update idna-convert library
+*   [Bug Fix] Fix issue where special characters in subject break user interface (list of archived emails, list of queued emails)
+*   [Bug Fix] Bounce emails containing email addresses in angle brackets are showing the addresses in the email archive email details view
+
+= 1.8.10 =
+*Release Date - September 4th, 2023*
+
+*   [Bug Fix] Fix for: Non-static method PEAR::isError() cannot be called statically
+*   [Bug Fix] When moderation is active, the list administrators (serving as moderators) should not need to approve their own messages to the list
+
+= 1.8.9 =
+*Release Date - August 18th, 2023*
+
+*   [Bug Fix] submitTxt parameter works again for subscribe/unsubscribe shortcodes
+*   [Bug Fix] headerTxt parameter works again for subscribe/unsubscribe shortcodes
+*   [Bug Fix] Fix error 1406 Data too long for column references_to
+*   [Bug Fix] Fix WordPress database error: [Unknown column ‘published’ in ‘where clause’]
+*   [Bug Fix] When emails get deleted, no empty folders remain (where the attachments were stored in before they were deleted)
+*   [Bug Fix] Fix two bugs related to email digests that could prevent digests from being sent (Society & Enterprise edition)
+*   [Bug Fix] Avoid warnings with PHP 8.2
+
+= 1.8.8 =
+*Release Date - June 6th, 2023*
+
+*   [Bug Fix] When formatted HTML with very long lines are encountered, the automatic line splitting may run into issues. e.g. when formatted Text from Google Docs is copied into email body. This is now fixed.
+*   [Bug Fix] Fix subscriber module problem with PHP 8.1/8.2
+*   [Bug Fix] Anticipate problems with apostrophes and quotes characters being part of users' names and notes
+*   [Bug Fix] Do not log to PHP error log during installation
+*   [Bug Fix] Remove unneeded code, no need to require parse_ini_file function
+
+= 1.8.7 =
+*Release Date - March 29th, 2023*
+
+*   [Feature] Add removeFromGroup option for unsubscribe forms to automatically remove a user from a user group when the user unsubscribes
+*   [Improvement] Warn about system incompatibility issues (like missing PHP IMAP extensions)
+*   [Improvement] Default order lists, users and names by name
+*   [Bug Fix] Fix timezone issue for email received and forwarded timestamps
+*   [Bug Fix] Fix for iPhone embedded images/fotos
+*   [Bug Fix] Fix: date parts (like month names) are translated
+*   [Bug Fix] User interface for adding mailing list(s) is now tabbed again
+*   [Bug Fix] User interface (select list of group users) works correctly after new group was created
+*   [Bug Fix] Avoid PHP warnings
+
+= 1.8.6 =
+*Release Date - February 8th, 2023*
+
+*   [Bug Fix] Fix PHP include problem related to library Html2Text in free edition as well
+*   [Bug Fix] Sender (SMTP) connection check feedback working again
+*   [Bug Fix] Avoid some PHP warnings in PHP 8.x
+
+= 1.8.5 =
+*Release Date - February 2nd, 2023*
+
+*   [Bug Fix] Email without TO recipient will not stop email(s) from being retrieved from mailing list inbox
+*   [Bug Fix] Fix PHP include problem related to library Html2Text (and others)
+*   [Bug Fix] The add2Group parameter works in the subscribe-shortcode
+*   [Bug Fix] Ability to deal with charset collation differences (between WP users and WP Mailster database tables)
+*   [Bug Fix] Avoid PHP warnings in PHP 8.1
+
+= 1.8.4 =
+*Release Date - January 9th, 2023*
+
+*   [Improvement] Better warn about non-supported special characters in the mailing list password(s)
+*   [Improvement] UI improvements (show attachment indicator in email archive, explain fwd errors/completed indicators)
+*   [Improvement] Add list name in List-Subscribe / List-Unsubscribe headers (subject lines)
+*   [Bug Fix] Fix issue when no iconv functionality is available for charset conversion
+*   [Bug Fix] Fix PHP errors (PHP 8)
+*   [Bug Fix] Saving WP user's lists/groups will not cause incorrect error message
+*   [Bug Fix] Do not show current date/time in send timestamp column when sending was not done
+*   [Bug Fix] Fix some language typos
+
+= 1.8.3 =
+*Release Date - October 20th, 2022*
+
+*   [Improvement] For address mode = TO (single recipient per email), pre-fill email address in unsubscribe links
+*   [Improvement] Stop using $_SESSION to avoid problems with WP health check etc.
+*   [Improvement] Introduce various filters for altering the subscribe/unsubscribe endpoints headers, text and buttons
+*   [Improvement] Introduce filter wpmailster_email_processing_attachment_default_filename to override default attachment filename (mst_no_filename) if needed
+*   [Bug Fix] Subscribe and unsubscribe dialogs can now be translated
+*   [Bug Fix] Fixed unsubscribe problem: when for one email address, there is a both a WordPress and a WP Mailster user, both get unsubscribed
+*   [Bug Fix] License key can be saved in WP Mailster settings if ad-hoc check/validation fails
+*   [Bug Fix] Change license backend callbacks to be executed server side (to avoid issues with CSP / Content Security Policy blocking in browsers)
+*   [Bug Fix] Remove several PHP notices
+
+= 1.8.2 =
+*Release Date - August 23rd, 2022*
+
+*   [Improvement] Store log file now in wp-content/uploads/wp-mailster directory to avoid problems on plugin updates/upgrades/downgrades
+*   [Bug Fix] mst_emails shortcode's list ID (lid) filter works again
+*   [Bug Fix] Goodbye/welcome messages were not sent in some situations where admin changed list memberships
+*   [Bug Fix] Support special characters in passwords (slash, "/", was missing)
+
+= 1.8.1 =
+*Release Date - July 27th, 2022*
+
+*   [Improvement] Update minimal system requirements to WP 5.3 (from 4.3) and PHP 5.6 (from 5.5)
+*   [Bug Fix] Storing of attachments with long MIME subtypes (e.g. MS Office formats like docx format with: VND.OPENXMLFORMATS-OFFICEDOCUMENT.WORDPROCESSINGML.DOCUMENT) is supported and will not crash mail retrieving
+*   [Bug Fix] Fix issues managing users with apostrophe in their names (like O'Neil)
+*   [Bug Fix] Fix issues recording send events for users with apostrophe in their names
+*   [Bug Fix] Omit PHP warnings like "DOMDocument::loadHTML(): Tag o:p invalid in Entity"
+*   [Bug Fix] Fix issue with timestamps not taking WP timezone settings into account
+*   [Bug Fix] A "mail not forwarded" event not being sent out (due to random reasons) will not stop handling of mailing list mails (not cause email loop)
+*   [Bug Fix] Failure to open the log file will not crash the process
+
+= 1.8.0 =
+*Release Date - June 10th, 2022*
+
+*   [Feature] Introduce subscribe and unsubscribe shortcodes ([mst_subscribe] and [mst_unsubscribe])
+*   [Improvement] UI optimization: full width for emails/lists/users/groups/servers/... table views
+*   [Bug Fix] Fix for moderation mode: bounced/blocked/filtered emails will not produce a moderation request
+*   [Bug Fix] Fix handling of certain binary attachments
+*   [Bug Fix] Fix database issues (db maintenance) on WP multisite installations
+
+= 1.7.1 =
+*Release Date - February 1st, 2022*
+
+*   [Improvement] CSV export also puts out the user description / notes
+*   [Bug Fix] Increase plugin (lazy cronjob) stability to avoid edge cash crashes
+*   [Bug Fix] Fix issue in CSV import
+*   [Bug Fix] Show updated/created message when editing/saving/updating user
+*   [Bug Fix] Show name of list being added in header
+
+= 1.7.0 =
+*Release Date - December 12th, 2021*
+
+*   [Feature] Introduce options to deal with email hosters with a DMARC policy "reject" setting
+*   [Bug Fix] Hide irrelevant submenu entries more reliable
+*   [Bug Fix] Better recognize requests for rest API
+*   [Bug Fix] Avoid several PHP warnings and notices
+
+= 1.6.22 =
+*Release Date - November 8th, 2021*
+
+*   [Improvement] Society & Enterprise edition: attachments are included in moderation requests (moderators can review attachments). Setting on by default, can be deactivated in global settings.
+*   [Improvement] Paid editions: show license status in Start Center
+*   [Bug Fix] Fix mailbox connection (pulling in secure authentication when not setup)
+*   [Bug Fix] Fix recipient hover display in mail archive's send reports
+*   [Bug Fix] Fix Javascript error on recipient management screen
+*   [Bug Fix] German translation updated
+
+= 1.6.21 =
+*Release Date - August 20th, 2021*
+
+*   [Improvement] Turn off opportunistic STARTTLS for imap_open
+*   [Improvement] Tested with WordPress v5.8
+*   [Bug Fix] Fix for PHP Deprecated:  Required parameter $value follows optional parameter $options
+*   [Bug Fix] Fix text string / spelling mistakes
+
+= 1.6.20 =
+*Release Date - April 15th, 2021*
+
+*   [Bug Fix] Catch runtime errors during digest sending
+*   [Bug Fix] Catch digests that cannot be sent due to users no longer existing
+*   [Bug Fix] Fix PHP warnings
+
+= 1.6.19 =
+*Release Date - April 2nd, 2021*
+
+*   [Bug Fix] Add protection against CSRF attacks (kudos to Emanuele Barbeno)
+*   [Bug Fix] Do not add mail recipients to queue when already moderated (approved) message gets approved again
+*   [Bug Fix] Emails can have multiple attachments with the same name (not overwriting each other)
+*   [Bug Fix] PHP8 compatibility work: do not use curly braces for index access in arrays in string
+
+= 1.6.18 =
+*Release Date - March 3rd, 2021*
+
+*   [Improvement] Show date, list name in email view
+*   [Bug Fix] Back button for mails of one mailing list works as expected
+*   [Bug Fix] Fix email charset problem leading to plus signs being omitted
+*   [Bug Fix] PHP8 compatibility work: do not use curly braces for index access in arrays in string
+*   [Bug Fix] Fix PHP warnings
+
+= 1.6.17 =
+*Release Date - February 3rd, 2021*
+
+*   [Bug Fix] Attachments are deleted when emails are removed from the archive
+*   [Bug Fix] Adding more debug info for Captcha validation
+*   [Bug Fix] Fix PHP warnings
+
+= 1.6.16 =
+*Release Date - December 1st, 2020*
+
+*   [Feature] Pro editions: registration plugin for adding new users automatically to list and/or groups
+*   [Improvement] Show profile shortcode dialog also if only unsubscription is allowed
+*   [Bug Fix] CSV duplicate check based on email address needs to be case insensitive
+*   [Bug Fix] Count failed sending attempts towards the throttling quota
+
+= 1.6.15 =
+*Release Date - September 7th, 2020*
+
+*   [Bug Fix] Adding mailing lists works again in the correct tabbed layout
+*   [Bug Fix] Adding users/groups from/to mailing lists works again
+*   [Bug Fix] Fix WordPress 5.5 incompatibilities (more specific problems with jQuery 1.9 version)
+*   [Bug Fix] Add missing UI icons
+*   [Bug Fix] Fix PHP warnings
+
+= 1.6.14 =
+*Release Date - August 27th, 2020*
+
+*   [Improvement] For sender control checking consider @GMAIL.COM and @GOOGLEMAIL.COM the same
+*   [Bug Fix] Fix WordPress 5.5. incompatibilities (adding/removing recipients possible, dropdown filter in archive working)
+
+= 1.6.13 =
+*Release Date - August 12th, 2020*
+
+*   [Bug Fix] Make plugin compatible with WordPress 5.5
+
+= 1.6.12 =
+*Release Date - August 3rd, 2020*
+
+*   [Improvement] Support long passwords (limit is now 255 characters, and not 45 as it was)
+*   [Bug Fix] No shortcode execution in admin area (broke editing experience with Gutenberg editor)
+
+= 1.6.11 =
+*Release Date - July 9th, 2020*
+
+*   [Bug Fix] Avoid PHP warnings
+
+= 1.6.10 =
+*Release Date - July 8th, 2020*
+
+*   [Feature] Filters for modifying the welcome and goodbye email subject and contents (wpmailster_subsr_welcome_email_subject, wpmailster_subsr_welcome_email_body_html, wpmailster_subsr_welcome_email_body_alt, wpmailster_subsr_goodbye_email_subject, wpmailster_subsr_goodbye_email_body_html, wpmailster_subsr_goodbye_email_body_alt)
+*   [Feature] Introduce new text variables {orig_to} and {orig_cc} to include original TO and CC addressees in the email content (header or footer text)
+*   [Improvement] Do not execute plugin background actions during REST API requests (wp-json/wp/v2 endpoint)
+*   [Bug Fix] Send welcome message (when enabled) to all new users added through admin
+*   [Bug Fix] Display host name (and port) for server names in lists and dropdowns
+*   [Bug Fix] User name and description is pulled reliable for WP users
+*   [Bug Fix] Use display name instead of nice name
+
+= 1.6.9 =
+*Release Date - April 17th, 2020*
+
+*   [Improvement] For WP users, use user's "nice name" if available
+*   [Bug Fix] Digest queue is emptied after successful digest sending
+
+= 1.6.8 =
+*Release Date - March 24th, 2020*
+
+*   [Improvement] Compatibility with WordPress 5.4
+*   [Bug Fix] Remove unneeded PHP warnings
+
+= 1.6.7 =
+*Release Date - February 17th, 2020*
+
+*   [Improvement] Warn user if unsupported special character is used for the email password
+*   [Improvement] CSS classes for unsubscribe button added
+*   [Bug Fix] Fix incompatibilities in admin area (styles and scripts are not loaded on other screens), e.g. other plugins' tabs user interfaces looked funny or stopped working
+*   [Bug Fix] In frontend mailing list view: show list email instead of admin email
+*   [Bug Fix] Hide emails in moderation from list of shortcode [mst_emails]
+*   [Bug Fix] Performance optimizations by avoiding unnecessary DB update checks
+*   [Bug Fix] Remove unneeded PHP notices
+
+= 1.6.6 =
+*Release Date - November 14th, 2019*
+
+*   [Feature] Pro editions: define email retention period for archive or disable email archiving
+
+= 1.6.5 =
+*Release Date - October 5th, 2019*
+
+*   [Improvement] Better logging for hard to analyze DB query issues
+
+= 1.6.4 =
+*Release Date - October 4th, 2019*
+
+*   [Bug Fix] Compatibility with MySQL running with NO_ZERO_DATE setting
+
+= 1.6.3 =
+*Release Date - October 4th, 2019*
+
+*   [Bug Fix] User edit screen (to change a user's group and list membership) works for WP users
+*   [Bug Fix] Avoid queue from filling up with garbage (shorten too long mail references)
+
+= 1.6.2 =
+*Release Date - September 4th, 2019*
+
+*   [Bug Fix] Fix stored cross-site scripting vulnerabilities
+*   [Bug Fix] Bulk resending of messages from the email archive works
+*   [Bug Fix] Remove unnecessary PHP warnings
+
+= 1.6.1 =
+*Release Date - August 12th, 2019*
+
+*   [Bug Fix] Avoid "Specified key was too long" database error message
+
+= 1.6.0 =
+*Release Date - August 4th, 2019*
+
+*   [Feature] Society & Enterprise edition: Moderation Mode
+*   [Bug Fix] Attachment download in frontend works
+*   [Bug Fix] Do not display title twice in subscribe widgets
+*   [Bug Fix] Allow customization of the list label in subscribe widgets
+*   [Bug Fix] Allow special characters in mailbox password fields
+*   [Bug Fix] Avoid PHP warnings
+*   [Bug Fix] Do not display upgrade link in Enterprise edition
+
+= 1.5.15 =
+*Release Date - June 18th, 2019*
+
+*   [Bug Fix] Lists created as duplicates where never checked for new emails
+*   [Bug Fix] Subscribe widget's "add to group" functionality
+*   [Bug Fix] Design choice in subscribe widget are saved correctly
+*   [Bug Fix] Do not send <> as the sender of notification emails
+
+= 1.5.14 =
+*Release Date - May 17th, 2019*
+
+*   [Improvement] Pro versions' throttle setting: enable to only sleep 0.1 or 0.5 seconds between the sending of each email
+*   [Improvement] Workaround for missing PHP charset conversion functions (iconv, mb_convert_encoding). If no workaround can be applied, warnings are displayed that the functionality is limited.
+*   [Improvement] Updated German translation
+*   [Bug Fix] Notifications are stored correctly (are not assigned to a different mailing list)
+
+= 1.5.13 =
+*Release Date - April 18th, 2019*
+
+*   [Bug Fix] When an email gets deleted from the archive, also remove related queue entries, attachments, etc
+
+= 1.5.12 =
+*Release Date - February 20th, 2019*
+
+*   [Bug Fix] Correctly record the original send timestamp (no timezone difference issue)
+
+= 1.5.11 =
+*Release Date - February 2nd, 2019*
+
+*   [Improvement] Cronjob optimization for the "all" execution mode to avoid sending delays for installations with many lists
+*   [Bug Fix] Do not send out "your email is no forwarded" notifications when the sender does have an empty email address
+*   [Bug Fix] Fix for "keep original header" setting for multiple CC addresses - put all of them in one header, not multiple CC headers
+
+= 1.5.10 =
+*Release Date - December 29th, 2018*
+
+*   [Improvement] Pull user name from database to fill for user name placeholder variable in case original header was empty
+*   [Improvement] Pro versions license information is showing within settings and system diagnosis
+*   [Bug Fix] Attachment with UTF-8 filenames are handled correctly (e.g. ä,ö,ü characters)
+*   [Bug Fix] No plugin email retrieval/sending activtiy during plugin installs/updates/activations/deactivations/hearbeat requests
+*   [Bug Fix] Fix for raw cases where email headers cannot be retrieved in first try
+
+= 1.5.9 =
+*Release Date - May 12th, 2018*
+
+*   [Improvement] Auto-detect CSV file format on import
+*   [Improvement] Language settings fixed to make translation possible
+*   [Improvement] Added German translation, thanks Jörg Knörchen
+*   [Improvement] Digests can be managed by the admin (Society and Enterprise only)
+*   [Bug Fix] Fix counter display for adding/removing list members
+
+= 1.5.8 =
+*Release Date - March 22nd, 2018*
+
+*   [Improvement] User interface improvements with more in-app help texts + quick links
+*   [Improvement] Remove CC addressing mode because of known negative implications
+*   [Bug Fix] Club/Society/Enterprise: Valid licenses are recognized more reliable
+
+= 1.5.7 =
+*Release Date - February 26th, 2018*
+
+*   [Bug Fix] Society/Enterprise: Digest frequency can be changed in Profile shortcode
+*   [Bug Fix] Fixed typos
+
+= 1.5.6 =
+*Release Date - February 10th, 2018*
+
+*   [Improvement] Improve [mst_mailing_lists] and [mst_emails] shortcodes content
+*   [Bug Fix] Double Opt-In Subscription through Profile shortcode works
+*   [Bug Fix] Fix and remove "log to database" feature
+
+= 1.5.5 =
+*Release Date - December 5th, 2017*
+
+*   [Bug Fix] Security Fix XSS (Cross Site Scripting) issue in unsubscribe handler (thank you for your help, Ricardo Sanchez)
+
+= 1.5.3 / 1.5.4 =
+*Release Date - November 19th, 2017*
+
+*   [Improvement] Make plugin work in Multiuser / Network site context
+*   [Improvement] Recipients names from WP users are coming from first name / last name instead of login names
+*   [Improvement] Queue entries can be deleted
+*   [Improvement] The shortcode [mst_emails] has new parameter to control the order the messages are dispalyed, e.g. [mst_emails lid=1 order=oldfirst] or [mst_emails lid=1 order=newfirst]
+*   [Improvement] Various interface improvements to show #users per list/group and for better navigation
+*   [Bug Fix] All list members (recipients) can be removed
+*   [Bug Fix] Make unsubscribe (with and without double-opt-out) work
+*   [Bug Fix] Subject prefixes can have a blank character at the end
+*   [Bug Fix] Unsubscribe URL placeholder (for custom header/footer) works in typcial situations where a text editor adds unneeded http/https before the {unsubscribe} placeholder
+*   [Bug Fix] Catch runtime exception in case log file cannot be generated
+*   [Bug Fix] Improved logo naming so that browser caching will not prevent correct logo to be displayed after upgrade
+
+
+= 1.5.0 =
+*Release Date - September 26th, 2017*
+
+*   [Feature] Shortcode mst_emails allows to only select a specific mailing list by it's ID, e.g. [mst_emails lid=2]
+*   [Feature] Mailing lists can be duplicated
+*   [Improvement] Subscribe / unsubscribe forms work without page reload
+*   [Improvement] Introduce reCAPTCHA v2, remove v1
+*   [Improvement] PHP 5.3 and PHP 5.4 are supported
+*   [Bug Fix] Resolve PHP 7.0 compatibility issue
+*   [Bug Fix] Pagination fix for admin lists
+*   [Bug Fix] Log file of installation is not written to the root directory
+*   [Bug Fix] Fixed typos
+
+
+= 1.4.19 =
+*Release Date - June 13th, 2017*
+
+*   [Improvement] Speed optimization (remove unneeded DB schema checks)
+*   [Improvement] Plugin Update Checker updated to latest version
+*   [Bug Fix] Pagination fix for threads shortcode
+*   [Bug Fix] Added default page size for mails in mails shortcode
+*   [Bug Fix] CSV Import: check on PHP's max_input_vars setting to detect when too much entries would be present to inform the user (and skip the ones too much)
+
+
+= 1.4.18 =
+*Release Date - May 4th, 2017*
+
+*   [Bug Fix] Fix error when mailing lists are saved
+*   [Bug Fix] Remove unnecessary "Show User description" setting
+*   [Bug Fix] No whitespace in front of text-area settings
+
+
+= 1.4.17 =
+*Release Date - April 20th, 2017*
+
+*   [Improvement] Set date/time format displayed in email header/footer according to the WordPress installation's settings
+*   [Bug Fix] Only show mailing list settings available in the respective product edition
+*   [Bug Fix] Trigger Source setting can be saved
+*   [Bug Fix] Language fixes
+
+
+= 1.4.13 - 1.4.16 (April 9th, 2017) =
+*   [Bug Fix] Fixed Profile shortcode
+
+
+= 1.4.12 =
+*Release Date - April 8th, 2017*
+
+*   [Improvement] Email archive in admin has now buttons to removing remaining queue entries and resetting send error count
+*   [Bug Fix] Captcha and "add to group" selections can be made in the subscribe widget
+*   [Bug Fix] Fixed Profile shortcode in Free edition (Users can subscribe and unsubscribe from lists)
+
+
+= 1.4.11 =
+*Release Date - March 7th, 2017*
+
+*   [Feature] CSV import and export of users/email addresses
+*   [Bug Fix] Fix some warning messages
+
+
+= 1.4.10 =
+*Release Date - February 19th, 2017*
+
+*   [Feature] Introduce shortcodes to display email archives, mailing list and subscription profile
+*   [Feature] Add duplicate bulk action to mailing list screen for copying lists
+*   [Improvement] Show available shortcodes in dashboard
+*   [Bug Fix] Don't remove white spaces in subject prefix, and plain header/footer
+*   [Bug Fix] Remove CSS styling from site area and unneeded styling
+
+
+= 1.4.9 =
+*Release Date - February 2nd, 2017*
+
+*   [Bug Fix] Make inline images show up in the email archive message view
+*   [Bug Fix] Attachment download in the backend email archive works again
+
+
+= 1.4.8 =
+*Release Date - January 31th, 2017*
+
+*   [Bug Fix] Automatically fix remaining DB collation differences
+
+
+= 1.4.7 =
+*Release Date - January 31th, 2017*
+
+*   [Bug Fix] Make some important options (e.g. max run time, minimum time between retrieving/sending, ...) available in the admin settings GUI
+
+
+= 1.4.6 =
+*Release Date - January 30th, 2017*
+
+*   [Improvement] Add search functionality to all admin area lists/tables
+*   [Improvement] Improve some GUI elements on the edit mailing list screen
+*   [Bug Fix] Existing log file is not overwritten during plugin updates
+
+
+= 1.4.5 =
+*Release Date - January 25th, 2017*
+
+*   [Improvement] Show recipient count used in mailing list VS max recipients
+*   [Improvement] Better show active GUI elements in edit mailing list screen
+*   [Bug Fix] Various small fixes
+
+
+= 1.4.4 =
+*Release Date - January 24th, 2017*
+
+*   [Bug Fix] Saving of multiple mailing list settings fixed
+*   [Bug Fix] Emails can be deleted in the email archive
+
+
+= 1.4.3 =
+*Release Date - January 23rd, 2017*
+
+*   [Improvement] GUI improvements in the mailing list management
+*   [Bug Fix] Automatically fixes DB collation differences
+*   [Bug Fix] Log file works when WP is installed in subdirectory
+*   [Bug Fix] Fixed wrong textual file size representations (KB VS MB)
+
+
+= 1.4.0 =
+*Release Date - January 3rd, 2017*
+
+*   Initial release
